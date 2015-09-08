@@ -1,0 +1,23 @@
+div.resume {
+	h2 {
+
+		> a {
+			text-decoration: none;
+			color: #d98900;
+
+			&:hover {
+					border-bottom: 1px solid rgba(3, 163, 120, 0.3);
+					}
+		}	
+		
+		}		
+}
+
+a.link  {
+	text-decoration: none;
+	color: rgba(30, 128, 126, 0.7);
+
+		&:hover {
+		border-bottom: 1px solid #d98900;
+		}
+}
