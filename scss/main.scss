@@ -12,8 +12,10 @@
 
 @import 'partials/vendor/bourbon/bourbon';
 @import 'partials/vendor/font-awesome/scss/font-awesome';
-@import 'partials/nav';
 @import 'partials/a';
+@import 'partials/color';
+@import 'partials/nav';
+
 
 
 
@@ -37,19 +39,11 @@ nav h1 {
 	font-family: 'Cardo', serif;
 }
 
-div#hi {
-
-	h1 {
-	font-size: 40px;	
-	color: rgba(3, 163, 120, 0.3);
-	padding-left: 50px;
-	padding-right: 50px;
-	}	
-}
-
 .intro {
+	margin-top: 20vh;
 	display: inline-block;
-	background-color: rgba(30, 128, 126, 0.7);
+	background-color: $teal;
+	background-image: url("../images/waves1.jpg");
 	border-radius: 5px;
 	margin-bottom: 20px;
 
@@ -94,8 +88,8 @@ div#hi {
 
 
 			@include breakpoint(medium){
-			height: 500px;	
-			width: 1250px;
+			height: 80vh;	
+			width: 100vw;
 			font-size: 24px;
 			}
 
@@ -126,10 +120,73 @@ ul.nav-social {
 		h1 {
 			margin: 0;
 		}
-
-
 	}		
 }
+
+.fa-arrow-down  {
+	z-index: 3;
+	font-size: 80px;
+	color: $yellow;
+	margin-left: 580px;
+  margin-top: 120px;
+  background-color: white;
+  border-radius: 50%;
+  border: 10px solid white;
+}
+
+//portfolio
+
+div.page-projects {
+	width: 1160px;
+	overflow: auto;
+	
+	h1 {
+	font-size: 40px;	
+	color: rgba(3, 163, 120, 0.3);
+	padding-left: 50px;
+	}	
+
+		ul {
+			list-style: none;
+		}
+			li {
+				padding-right: 20px;
+			}
+
+			img {
+			border: 1px solid $yellow;
+			display: block;
+			width: 20%;
+			height: 20%;
+			float: left;
+			padding-top: 35px;
+			padding-right: 20px;
+			padding-left: 0;
+
+				&:hover {
+					transform: scale(1.02, 1.02);
+				}
+
+				@include breakpoint(small){
+					width: 30%;
+					height: 30%;
+					padding-left: 0;
+				}
+
+				@include breakpoint(medium){
+					width: 40%;
+					height: 40%;	
+					padding-left: 30px;	
+				}
+				
+				
+			}
+
+}
+
+
+
+//resume
 
 div.pre-res {
 
@@ -215,49 +272,6 @@ div.education {
 		p {
 			padding-left: 20px;
 		}
-
-}
-
-
-div.page-projects {
-	width: 1160px;
-	overflow: auto;
-	
-	h1 {
-	font-size: 40px;	
-	color: rgba(3, 163, 120, 0.3);
-	padding-left: 50px;
-	}	
-
-		ul {
-			list-style: none;
-		}
-			img {
-			display: block;
-			width: 20%;
-			height: 20%;
-			float: left;
-			padding-top: 35px;
-			padding-left: 0;
-
-				&:hover {
-					transform: scale(1.02, 1.02);
-				}
-
-				@include breakpoint(small){
-					width: 30%;
-					height: 30%;
-					padding-left: 0;
-				}
-
-				@include breakpoint(medium){
-					width: 40%;
-					height: 40%;	
-					padding-left: 30px;	
-				}
-				
-				
-			}
 
 }
 
