@@ -1806,7 +1806,7 @@ nav {
   padding: 0px;
   overflow: auto;
   font-size: 10px;
-  font-family: 'Cardo', serif;
+  font-family: Calisto MT Regular;
   position: fixed;
   background-color: white; }
   @media (min-width: 800px) {
@@ -1831,8 +1831,8 @@ nav {
           transform: scale(1.1, 1.1); }
 
 body {
-  font-size: 20px;
-  font-family: 'EB Garamond', serif;
+  font-size: 18px;
+  font-family: Calisto MT Regular;
   color: black;
   margin: 0; }
 
@@ -1888,7 +1888,7 @@ ul.nav-social {
     padding-right: 15px;
     float: left; }
     ul.nav-social li a {
-      color: white; }
+      color: #d98900; }
     ul.nav-social li:hover {
       border-bottom: 1px solid #d98900; }
     ul.nav-social li h1 {
@@ -1916,14 +1916,13 @@ div.page-projects {
   div.page-projects li {
     padding-right: 20px; }
   div.page-projects img {
-    border: 1px solid #d98900;
     display: block;
     width: 20%;
     height: 20%;
     float: left;
-    padding-top: 35px;
-    padding-right: 20px;
-    padding-left: 0; }
+    padding-top: 10vh;
+    padding-left: 15vw;
+    padding-right: 5vw; }
     div.page-projects img:hover {
       transform: scale(1.02, 1.02); }
     @media (min-width: 480px) {
@@ -1971,14 +1970,15 @@ div.resume {
       line-height: 10px;
       padding-left: 0px;
       font-size: 8px;
-      margin-left: 10px; }
-      @media (min-width: 480px) {
-        div.resume > #resume-inside > span > h2 {
-          font-size: 14px; } }
-      @media (min-width: 800px) {
-        div.resume > #resume-inside > span > h2 {
-          font-size: 24px;
-          padding-left: 5px; } }
+      padding-left: 20px; }
+      div.resume > #resume-inside > span > h2 a {
+        margin-left: 20px; }
+        @media (min-width: 480px) {
+          div.resume > #resume-inside > span > h2 a {
+            font-size: 14px; } }
+        @media (min-width: 800px) {
+          div.resume > #resume-inside > span > h2 a {
+            font-size: 24px; } }
       div.resume > #resume-inside > span > h2#email {
         padding-top: 40px; }
   @media (min-width: 480px) {

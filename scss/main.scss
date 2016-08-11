@@ -19,8 +19,8 @@
 
 
 body {
-	font-size: 20px;
-	font-family: 'EB Garamond', serif;
+	font-size: 18px;
+	font-family: $calisto;
 	color: black;
 	margin: 0;
 }
@@ -93,7 +93,7 @@ ul.nav-social {
 
 
 		a {
-			color: white;
+			color: $yellow;
 			}
 
 			&:hover {
@@ -137,14 +137,13 @@ div.page-projects {
 			}
 
 			img {
-			border: 1px solid $yellow;
 			display: block;
 			width: 20%;
 			height: 20%;
 			float: left;
-			padding-top: 35px;
-			padding-right: 20px;
-			padding-left: 0;
+			padding-top: 10vh; 
+			padding-left: 15vw;
+			padding-right: 5vw;
 
 				&:hover {
 					transform: scale(1.02, 1.02);
@@ -217,18 +216,22 @@ div.resume {
 				line-height: 10px;
 				padding-left: 0px;
 				font-size: 8px;
-				margin-left: 10px;
+				padding-left: 20px;
 					
+				a {
+					margin-left: 20px;
+
 					@include breakpoint(small) {
 						font-size: 14px;
 					}
 					
 					@include breakpoint(medium) {
 						font-size: 24px;
-						padding-left: 5px;
+						
 
 					}
-			
+				}
+
 			&#email {
 				padding-top: 40px;
 
