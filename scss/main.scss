@@ -42,8 +42,6 @@ nav h1 {
 .intro {
 	margin-top: 20vh;
 	display: inline-block;
-	background-color: $teal;
-	background-image: url("../images/pattern1.jpg");
 	border-radius: 5px;
 	margin-bottom: 20px;
 
@@ -120,9 +118,11 @@ ul.nav-social {
 //portfolio
 
 div.page-projects {
-	width: 1160px;
+	width: 100vw;
 	overflow: auto;
 	padding-left: 20px;
+	padding-right: 40px;
+	background-color: $teal;
 	
 	h1 {
 	font-size: 40px;	
@@ -143,6 +143,7 @@ div.page-projects {
 
   		li.alternates{
   			float: right;
+  			padding-right: 80px;
   		}
 		}
 			img {

@@ -1852,8 +1852,6 @@ nav h1 {
 .intro {
   margin-top: 20vh;
   display: inline-block;
-  background-color: rgba(30, 128, 126, 0.7);
-  background-image: url("../images/pattern1.jpg");
   border-radius: 5px;
   margin-bottom: 20px; }
   .intro p {
@@ -1906,9 +1904,11 @@ ul.nav-social {
   border: 10px solid white; }
 
 div.page-projects {
-  width: 1160px;
+  width: 100vw;
   overflow: auto;
-  padding-left: 20px; }
+  padding-left: 20px;
+  padding-right: 40px;
+  background-color: rgba(30, 128, 126, 0.7); }
   div.page-projects h1 {
     font-size: 40px;
     color: rgba(3, 163, 120, 0.3);
@@ -1920,7 +1920,8 @@ div.page-projects {
       position: relative;
       float: left; }
     div.page-projects ul.image-list li.alternates {
-      float: right; }
+      float: right;
+      padding-right: 80px; }
   div.page-projects img {
     padding-top: 10vh;
     height: 50vh;
