@@ -1849,39 +1849,53 @@ nav h1 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400; }
 
-div.page-about .intro {
-  margin-top: 20vh;
-  display: inline-block;
-  border-radius: 5px;
-  margin-bottom: 20px; }
-  div.page-about .intro p {
-    display: block;
-    padding-left: 20px;
-    margin: 16px;
-    padding-right: 100px; }
-    div.page-about .intro p#first {
-      padding-top: 10px; }
+div.page-about .blue-block {
+  width: 5vw;
+  height: 95vh;
+  background-color: rgba(30, 128, 126, 0.7);
+  border-right: 1em solid #d13135;
+  padding: 0; }
+  div.page-about .blue-block .intro {
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-top: 20vh;
+    padding-left: 5vw;
+    float: left; }
+    div.page-about .blue-block .intro p {
+      display: block;
+      padding-left: 20px;
+      margin: 16px;
+      padding-right: 10vw; }
+      div.page-about .blue-block .intro p#first {
+        padding-top: 10px; }
+      @media (min-width: 50vw) {
+        div.page-about .blue-block .intro p {
+          font-size: 24px;
+          padding-left: 50px;
+          padding-top: 30px; } }
+    @media (min-width: 25vw) {
+      div.page-about .blue-block .intro {
+        height: 650px;
+        width: 800px; } }
     @media (min-width: 50vw) {
-      div.page-about .intro p {
-        font-size: 24px;
-        padding-left: 100px;
-        padding-top: 30px; } }
-  @media (min-width: 25vw) {
-    div.page-about .intro {
-      height: 650px;
-      width: 800px; } }
-  @media (min-width: 50vw) {
-    div.page-about .intro {
-      height: 69vh;
+      div.page-about .blue-block .intro {
+        height: 69vh;
+        width: 100vw;
+        font-size: 24px; } }
+    div.page-about .blue-block .intro #yellow-block {
+      background-color: #ff8c02;
       width: 100vw;
-      font-size: 24px; } }
+      height: .5em;
+      margin-top: -10vh;
+      margin-left: -5vw; }
 
 ul.nav-social {
   background-color: transparent;
   overflow: auto;
   margin: 0;
   padding: 0;
-  margin-left: 105px; }
+  margin-left: 65px; }
   ul.nav-social li {
     list-style: none;
     list-style: none;

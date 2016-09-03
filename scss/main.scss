@@ -40,44 +40,60 @@ nav h1 {
 }
 
 div.page-about{
+	
+	.blue-block{
+		width: 5vw;
+		height: 95vh;
+		background-color: $teal;
+		border-right: 1em solid $red;
+		padding: 0;
 
-	.intro {
-		margin-top: 20vh;
-		display: inline-block;
-		border-radius: 5px;
-		margin-bottom: 20px;
+		.intro {
+			display: inline-block;
+			border-radius: 5px;
+			margin-bottom: 20px;
+			padding-top: 20vh;
+			padding-left: 5vw;
+			float: left;
 
-			p {
+
+				p {
 					display: block;
 					padding-left: 20px;
 					margin: 16px;
-					padding-right: 100px;
-				
-				&#first {
-					padding-top: 10px;
-				}
+					padding-right: 10vw;
+					
+					&#first {
+						padding-top: 10px;
+					}
 
-				@include breakpoint(medium){
-				font-size: 24px;
-				padding-left: 100px;
-				padding-top: 30px;
+					@include breakpoint(medium){
+					font-size: 24px;
+					padding-left: 50px;
+					padding-top: 30px;
+					}
 
-				}
+				}	
 
-			}	
+					@include breakpoint(small) {
+						height: 650px;
+						width: 800px;
+					}
 
-				@include breakpoint(small) {
-					height: 650px;
-					width: 800px;
-				}
+					@include breakpoint(medium){
+					height: 69vh;	
+					width: 100vw;
+					font-size: 24px;
 
-
-				@include breakpoint(medium){
-				height: 69vh;	
+					}	
+			#yellow-block{
+				background-color: $yellow;
 				width: 100vw;
-				font-size: 24px;
-
-				}
+				height: .5em;
+				margin-top: -10vh;
+				margin-left: -5vw;
+			}		
+		}		
 	}			
 }
 
@@ -86,14 +102,13 @@ ul.nav-social {
 	overflow: auto;
 	margin: 0;
 	padding: 0;
-	margin-left: 105px;
+	margin-left: 65px;
 
 	li {
 		list-style: none;
 		list-style: none;
 		padding-right: 15px;
 		float: left;
-
 
 		a {
 			color: $yellow;
