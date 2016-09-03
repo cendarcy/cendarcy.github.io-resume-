@@ -39,41 +39,46 @@ nav h1 {
 	font-weight: 400;
 }
 
-.intro {
-	margin-top: 20vh;
-	display: inline-block;
-	border-radius: 5px;
-	margin-bottom: 20px;
+div.page-about{
 
-		p {
-				display: block;
-				padding-left: 20px;
-				margin: 16px;
-			
-			&#first {
-				padding-top: 10px;
-			}
+	.intro {
+		margin-top: 20vh;
+		display: inline-block;
+		border-radius: 5px;
+		margin-bottom: 20px;
 
-			@include breakpoint(medium){
-			font-size: 24px;
-			padding-left: 100px;
-			padding-top: 30px;
-			}
+			p {
+					display: block;
+					padding-left: 20px;
+					margin: 16px;
+					padding-right: 100px;
+				
+				&#first {
+					padding-top: 10px;
+				}
 
-		}	
+				@include breakpoint(medium){
+				font-size: 24px;
+				padding-left: 100px;
+				padding-top: 30px;
 
-			@include breakpoint(small) {
-				height: 650px;
-				width: 800px;
-			}
+				}
+
+			}	
+
+				@include breakpoint(small) {
+					height: 650px;
+					width: 800px;
+				}
 
 
-			@include breakpoint(medium){
-			height: 69vh;	
-			width: 100vw;
-			font-size: 24px;
+				@include breakpoint(medium){
+				height: 69vh;	
+				width: 100vw;
+				font-size: 24px;
 
-			}
+				}
+	}			
 }
 
 ul.nav-social {

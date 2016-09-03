@@ -1849,28 +1849,29 @@ nav h1 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400; }
 
-.intro {
+div.page-about .intro {
   margin-top: 20vh;
   display: inline-block;
   border-radius: 5px;
   margin-bottom: 20px; }
-  .intro p {
+  div.page-about .intro p {
     display: block;
     padding-left: 20px;
-    margin: 16px; }
-    .intro p#first {
+    margin: 16px;
+    padding-right: 100px; }
+    div.page-about .intro p#first {
       padding-top: 10px; }
     @media (min-width: 50vw) {
-      .intro p {
+      div.page-about .intro p {
         font-size: 24px;
         padding-left: 100px;
         padding-top: 30px; } }
   @media (min-width: 25vw) {
-    .intro {
+    div.page-about .intro {
       height: 650px;
       width: 800px; } }
   @media (min-width: 50vw) {
-    .intro {
+    div.page-about .intro {
       height: 69vh;
       width: 100vw;
       font-size: 24px; } }
