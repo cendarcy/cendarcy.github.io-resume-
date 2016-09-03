@@ -1809,7 +1809,7 @@ nav {
   font-family: Calisto MT Regular;
   position: fixed;
   background-color: white; }
-  @media (min-width: 800px) {
+  @media (min-width: 50vw) {
     nav {
       width: 100vw;
       font-size: 24px; } }
@@ -1861,16 +1861,16 @@ nav h1 {
     margin: 16px; }
     .intro p#first {
       padding-top: 10px; }
-    @media (min-width: 800px) {
+    @media (min-width: 50vw) {
       .intro p {
         font-size: 24px;
         padding-left: 100px;
         padding-top: 30px; } }
-  @media (min-width: 480px) {
+  @media (min-width: 25vw) {
     .intro {
       height: 650px;
       width: 800px; } }
-  @media (min-width: 800px) {
+  @media (min-width: 50vw) {
     .intro {
       height: 69vh;
       width: 100vw;
@@ -1907,40 +1907,55 @@ ul.nav-social {
 div.page-projects {
   width: 1160px;
   overflow: auto;
-  padding-left: 85px; }
+  padding-left: 20px; }
   div.page-projects h1 {
     font-size: 40px;
     color: rgba(3, 163, 120, 0.3);
     padding-left: 50px; }
-  div.page-projects ul {
+  div.page-projects ul.image-list {
     list-style: none; }
-  div.page-projects li {
-    padding-right: 20px; }
+    div.page-projects ul.image-list li {
+      display: inline-block;
+      position: relative;
+      float: left; }
+    div.page-projects ul.image-list li.alternates {
+      float: right; }
   div.page-projects img {
-    display: block;
-    width: 20%;
-    height: 20%;
-    float: left;
-    padding-top: 10vh;
-    padding-left: 15vw;
-    padding-right: 5vw; }
+    height: 50vh;
+    width: 50vw;
+    display: inline-block;
+    position: relative;
+    			/*	@include breakpoint(small){
+    					width: 30%;
+    					height: 30%;
+    					padding-left: 0;
+    				}
+    
+    				@include breakpoint(medium){
+    					width: 40%;
+    					height: 40%;	
+    					padding-left: 30px;	
+    				}
+    				*/ }
     div.page-projects img:hover {
       background-color: rgba(0, 0, 0, 0.75);
       text-align: center;
-      padding: 45px 0 66px 0;
-      opacity: 0;
-      -webkit-transition: opacity .25s ease;
-      -moz-transition: opacity .25s ease; }
-    @media (min-width: 480px) {
-      div.page-projects img {
-        width: 30%;
-        height: 30%;
-        padding-left: 0; } }
-    @media (min-width: 800px) {
-      div.page-projects img {
-        width: 40%;
-        height: 40%;
-        padding-left: 30px; } }
+      /*padding:45px 0 66px 0;*/
+      		/*opacity:0;
+      		-webkit-transition: opacity .25s ease;
+					-moz-transition: opacity .25s ease;*/ }
+  div.page-projects div.box-text {
+    margin-left: 50vw;
+    padding-top: 20vh;
+    padding-left: 30px;
+    width: 30vw;
+    height: 50vh; }
+  div.page-projects div.box-text-2 {
+    margin-right: 50vw;
+    padding-top: 20vh;
+    padding-left: 30px;
+    width: 30vw;
+    height: 50vh; }
 
 div.pre-res h1 {
   font-size: 40px;
@@ -1964,10 +1979,10 @@ div.resume {
       margin: 10px 0px;
       line-height: 3em;
       font-size: 30px; }
-      @media (min-width: 480px) {
+      @media (min-width: 25vw) {
         div.resume > #resume-inside > span > h1 {
           font-size: 40px; } }
-      @media (min-width: 800px) {
+      @media (min-width: 50vw) {
         div.resume > #resume-inside > span > h1 {
           font-size: 50px; } }
     div.resume > #resume-inside > span > h2 {
@@ -1979,18 +1994,18 @@ div.resume {
       padding-left: 20px; }
       div.resume > #resume-inside > span > h2 a {
         margin-left: 20px; }
-        @media (min-width: 480px) {
+        @media (min-width: 25vw) {
           div.resume > #resume-inside > span > h2 a {
             font-size: 14px; } }
-        @media (min-width: 800px) {
+        @media (min-width: 50vw) {
           div.resume > #resume-inside > span > h2 a {
             font-size: 24px; } }
       div.resume > #resume-inside > span > h2#email {
         padding-top: 40px; }
-  @media (min-width: 480px) {
+  @media (min-width: 25vw) {
     div.resume {
       margin: 0px; } }
-  @media (min-width: 800px) {
+  @media (min-width: 50vw) {
     div.resume {
       padding-left: 50px;
       margin: 70px; } }
@@ -2014,7 +2029,7 @@ div.education {
     padding-right: 110px;
     padding-top: 60px;
     padding-bottom: 20px; }
-    @media (min-width: 800px) {
+    @media (min-width: 50vw) {
       .footer #portrait img {
         width: 25%; } }
   .footer .page-contact {

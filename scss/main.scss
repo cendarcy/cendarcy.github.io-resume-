@@ -3,10 +3,10 @@
 		@media (min-width: 100vw) { @content; }
 	}
 	@else if $point == medium {
-		@media (min-width: 800px) { @content; }
+		@media (min-width: 50vw) { @content; }
 	}
 	@else if $point == small {
-		@media (min-width: 480px) { @content; }
+		@media (min-width: 25vw) { @content; }
 	}
 }
 
@@ -122,7 +122,7 @@ ul.nav-social {
 div.page-projects {
 	width: 1160px;
 	overflow: auto;
-	padding-left: 85px;
+	padding-left: 20px;
 	
 	h1 {
 	font-size: 40px;	
@@ -130,32 +130,35 @@ div.page-projects {
 	padding-left: 50px;
 	}	
 
-		ul {
+		ul.image-list {
 			list-style: none;
-		}
-			li {
-				padding-right: 20px;
-			}
 
+  		li {
+				display: inline-block;
+			  position: relative;
+			  float: left;
+  		}
+
+  		li.alternates{
+  			float: right;
+  		}
+		}
 			img {
-			display: block;
-			width: 20%;
-			height: 20%;
-			float: left;
-			padding-top: 10vh; 
-			padding-left: 15vw;
-			padding-right: 5vw;
+				height: 50vh;
+				width: 50vw;
+			  display: inline-block;
+  			position: relative;
 
 				&:hover {
 					background-color:rgba(0,0,0,.75);
 					text-align:center;
-					padding:45px 0 66px 0;
-      		opacity:0;
+					/*padding:45px 0 66px 0;*/
+      		/*opacity:0;
       		-webkit-transition: opacity .25s ease;
-					-moz-transition: opacity .25s ease;
+					-moz-transition: opacity .25s ease;*/
 				}
 
-				@include breakpoint(small){
+			/*	@include breakpoint(small){
 					width: 30%;
 					height: 30%;
 					padding-left: 0;
@@ -166,11 +169,24 @@ div.page-projects {
 					height: 40%;	
 					padding-left: 30px;	
 				}
-				
+				*/
 				
 			}
-
-
+			
+			div.box-text{
+				margin-left: 50vw;
+				padding-top: 20vh;
+				padding-left: 30px;
+				width: 30vw;
+			  height: 50vh;
+				}
+			div.box-text-2{
+				margin-right: 50vw;
+				padding-top: 20vh;
+				padding-left: 30px;
+				width: 30vw;
+			  height: 50vh;
+			}
 }
 
 
