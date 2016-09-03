@@ -20,7 +20,7 @@
 
 body {
 	font-size: 18px;
-	font-family: $calisto;
+	font-family: $alegreya;
 	color: black;
 	margin: 0;
 }
@@ -133,10 +133,12 @@ div.page-projects {
 		ul.image-list {
 			list-style: none;
 
+
   		li {
 				display: inline-block;
 			  position: relative;
 			  float: left;
+
   		}
 
   		li.alternates{
@@ -144,19 +146,10 @@ div.page-projects {
   		}
 		}
 			img {
+				padding-top: 10vh;
 				height: 50vh;
 				width: 50vw;
 			  display: inline-block;
-  			position: relative;
-
-				&:hover {
-					background-color:rgba(0,0,0,.75);
-					text-align:center;
-					/*padding:45px 0 66px 0;*/
-      		/*opacity:0;
-      		-webkit-transition: opacity .25s ease;
-					-moz-transition: opacity .25s ease;*/
-				}
 
 			/*	@include breakpoint(small){
 					width: 30%;
@@ -175,17 +168,28 @@ div.page-projects {
 			
 			div.box-text{
 				margin-left: 50vw;
-				padding-top: 20vh;
-				padding-left: 30px;
+				padding-top: 15vh;
+				padding-left: 50px;
 				width: 30vw;
 			  height: 50vh;
+			  font-size: 20px;
+				  h2{
+				  	font-family: $josefin;
+				  	border-bottom: 1px solid $yellow;
+				  }
 				}
 			div.box-text-2{
+				font-size: 20px;
 				margin-right: 50vw;
-				padding-top: 20vh;
+				padding-top: 15vh;
 				padding-left: 30px;
 				width: 30vw;
 			  height: 50vh;
+				
+				h2{
+				  	font-family: $josefin;
+				  	border-bottom: 1px solid $red;
+				  }
 			}
 }
 

@@ -1806,8 +1806,9 @@ nav {
   padding: 0px;
   overflow: auto;
   font-size: 10px;
-  font-family: Calisto MT Regular;
+  font-family: 'Roboto', sans-serif;
   position: fixed;
+  z-index: 100;
   background-color: white; }
   @media (min-width: 50vw) {
     nav {
@@ -1832,7 +1833,7 @@ nav {
 
 body {
   font-size: 18px;
-  font-family: Calisto MT Regular;
+  font-family: "Alegreya Sans", sans-serif;
   color: black;
   margin: 0; }
 
@@ -1842,7 +1843,7 @@ nav h1 {
   margin-top: 25px;
   padding-right: 5px;
   padding-left: 15px;
-  border-right: 1px solid #d98900;
+  border-right: 1px solid #ff8c02;
   float: left;
   font-size: 45px;
   font-family: "Josefin Sans", sans-serif;
@@ -1888,16 +1889,16 @@ ul.nav-social {
     padding-right: 15px;
     float: left; }
     ul.nav-social li a {
-      color: #d98900; }
+      color: #ff8c02; }
     ul.nav-social li:hover {
-      border-bottom: 1px solid #d98900; }
+      border-bottom: 1px solid #ff8c02; }
     ul.nav-social li h1 {
       margin: 0; }
 
 .fa-arrow-down {
   z-index: 3;
   font-size: 80px;
-  color: #d98900;
+  color: #ff8c02;
   margin-left: 580px;
   margin-top: 60px;
   background-color: white;
@@ -1921,10 +1922,10 @@ div.page-projects {
     div.page-projects ul.image-list li.alternates {
       float: right; }
   div.page-projects img {
+    padding-top: 10vh;
     height: 50vh;
     width: 50vw;
     display: inline-block;
-    position: relative;
     			/*	@include breakpoint(small){
     					width: 30%;
     					height: 30%;
@@ -1937,25 +1938,26 @@ div.page-projects {
     					padding-left: 30px;	
     				}
     				*/ }
-    div.page-projects img:hover {
-      background-color: rgba(0, 0, 0, 0.75);
-      text-align: center;
-      /*padding:45px 0 66px 0;*/
-      		/*opacity:0;
-      		-webkit-transition: opacity .25s ease;
-					-moz-transition: opacity .25s ease;*/ }
   div.page-projects div.box-text {
     margin-left: 50vw;
-    padding-top: 20vh;
-    padding-left: 30px;
+    padding-top: 15vh;
+    padding-left: 50px;
     width: 30vw;
-    height: 50vh; }
+    height: 50vh;
+    font-size: 20px; }
+    div.page-projects div.box-text h2 {
+      font-family: "Josefin Sans", sans-serif;
+      border-bottom: 1px solid #ff8c02; }
   div.page-projects div.box-text-2 {
+    font-size: 20px;
     margin-right: 50vw;
-    padding-top: 20vh;
+    padding-top: 15vh;
     padding-left: 30px;
     width: 30vw;
     height: 50vh; }
+    div.page-projects div.box-text-2 h2 {
+      font-family: "Josefin Sans", sans-serif;
+      border-bottom: 1px solid #d13135; }
 
 div.pre-res h1 {
   font-size: 40px;
