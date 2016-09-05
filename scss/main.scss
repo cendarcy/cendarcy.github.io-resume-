@@ -90,7 +90,7 @@ div.page-about{
 				background-color: $yellow;
 				width: 100vw;
 				height: .5em;
-				margin-top: -10vh;
+				margin-top: -8vh;
 				margin-left: -5vw;
 			}		
 		}		
@@ -129,7 +129,7 @@ ul.nav-social {
 	font-size: 80px;
 	color: $yellow;
 	margin-left: 520px;
-  margin-top: 60px;
+  margin-top: 15px;
   background-color: white;
   border-radius: 50%;
   border: 10px solid white;
@@ -345,7 +345,7 @@ div.education {
 	
 	
 	#portrait {
-		background-image: url("/images/photo.jpg");
+		/*background-image: url("/images/photo.jpg");*/
 		display: block;
 		float: right;
 		width: 300%;

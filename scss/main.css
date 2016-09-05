@@ -1887,7 +1887,7 @@ div.page-about .blue-block {
       background-color: #ff8c02;
       width: 100vw;
       height: .5em;
-      margin-top: -10vh;
+      margin-top: -8vh;
       margin-left: -5vw; }
 
 ul.nav-social {
@@ -1913,7 +1913,7 @@ ul.nav-social {
   font-size: 80px;
   color: #ff8c02;
   margin-left: 520px;
-  margin-top: 60px;
+  margin-top: 15px;
   background-color: white;
   border-radius: 50%;
   border: 10px solid white; }
@@ -2057,7 +2057,7 @@ div.education {
     margin-left: -89vw;
     font-size: 20px; }
   .footer .page-contact #portrait {
-    background-image: url("/images/photo.jpg");
+    /*background-image: url("/images/photo.jpg");*/
     display: block;
     float: right;
     width: 300%;
