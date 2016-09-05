@@ -1806,7 +1806,7 @@ nav {
   padding: 0px;
   overflow: auto;
   font-size: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Karla', sans-serif;
   position: fixed;
   z-index: 100;
   background-color: white; }
@@ -1833,7 +1833,7 @@ nav {
 
 body {
   font-size: 18px;
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: "Karla", sans-serif;
   color: black;
   margin: 0; }
 
@@ -2033,29 +2033,55 @@ div.education {
   div.education p {
     padding-left: 20px; }
 
-.footer {
+#blue-middle-stripe {
+  width: 100vw;
+  height: 30vh;
+  margin-top: -10vh;
+  background-color: rgba(30, 128, 126, 0.7); }
+
+/*footer begins*/
+.footer .page-contact {
   margin-bottom: -50px;
   padding-bottom: -50px; }
-  .footer h1 {
-    padding-left: 50px;
-    color: rgba(3, 163, 120, 0.3); }
-  .footer #portrait img {
+  .footer .page-contact #footer-blue-stripe {
+    width: 6vw;
+    height: 50vh;
+    background-color: rgba(30, 128, 126, 0.7);
+    border-left: 1em solid #d13135;
+    padding: 0;
+    margin-left: 93vw;
+    padding-top: 10px; }
+  .footer .page-contact p {
+    width: 100vw;
+    height: 20vh;
+    margin-left: -89vw;
+    font-size: 20px; }
+  .footer .page-contact #portrait {
+    background-image: url("/images/photo.jpg");
     display: block;
     float: right;
-    width: 41%;
+    width: 300%;
+    height: 100%;
     padding-left: 110px;
     padding-right: 110px;
     padding-top: 60px;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    margin-left: -80vw; }
     @media (min-width: 50vw) {
-      .footer #portrait img {
+      .footer .page-contact #portrait {
         width: 25%; } }
-  .footer .page-contact {
-    background-color: #d98900;
-    padding-left: 100px; }
-    .footer .page-contact .nav-social {
-      margin-left: 30px;
-      width: 100vw;
-      border-bottom: white; }
+  .footer .page-contact ul.nav-social {
+    margin-left: -89vw;
+    margin-top: -10vh;
+    width: 100vw;
+    border-bottom: white;
+    color: #ff8c02; }
+.footer #footer-yellow-stripe {
+  background-color: #ff8c02;
+  width: 101vw;
+  height: .5em;
+  margin-top: 5vh;
+  margin-left: -96vw;
+  margin-bottom: -100vh; }
 
 /*# sourceMappingURL=main.css.map */

@@ -20,7 +20,7 @@
 
 body {
 	font-size: 18px;
-	font-family: $alegreya;
+	font-family: $karla;
 	color: black;
 	margin: 0;
 }
@@ -230,7 +230,7 @@ div.pre-res {
 div.resume {
 	border: 1px solid #03a378;
 	margin: 8px;
-
+	
 	> #resume-inside {
 		margin: 30px;
 
@@ -312,42 +312,71 @@ div.education {
 
 }
 
+	#blue-middle-stripe{
+		width: 100vw;
+		height: 30vh;
+		margin-top: -10vh;
+		background-color: $teal;
+	}
+
+/*footer begins*/
+
 .footer {
-	margin-bottom: -50px;
-	padding-bottom: -50px;
-	
-		h1 {
-			padding-left: 50px;
-			color: rgba(3, 163, 120, 0.3);
-		}
-
-
-	#portrait {
-			img {
-			display: block;
-			float: right;
-			width: 41%;
-			padding-left: 110px;
-			padding-right: 110px;
-			padding-top: 60px;
-			padding-bottom: 20px;
-
-			@include breakpoint(medium){
-				width: 25%;	
-			}
-
-		}
-	}			
-
 	.page-contact {
-		background-color: #d98900;
-		padding-left: 100px;
+		margin-bottom: -50px;
+		padding-bottom: -50px;
 
+		#footer-blue-stripe{
+			width: 6vw;
+			height: 50vh;
+			background-color: $teal;
+			border-left: 1em solid $red;
+			padding: 0;
+			margin-left: 93vw;
+			padding-top: 10px;
+		}
 
-			.nav-social {
-				margin-left: 30px;
+	p{
+		width: 100vw;
+		height: 20vh;
+		margin-left: -89vw;
+		font-size: 20px;
+	}
+	
+	
+	#portrait {
+		background-image: url("/images/photo.jpg");
+		display: block;
+		float: right;
+		width: 300%;
+		height: 100%;
+		padding-left: 110px;
+		padding-right: 110px;
+		padding-top: 60px;
+		padding-bottom: 20px;
+		margin-left: -80vw;
+
+	@include breakpoint(medium){
+		width: 25%;	
+	}
+
+	}			
+			ul.nav-social {
+				margin-left: -89vw;
+				margin-top: -10vh;
 				width: 100vw;	
 				border-bottom: white;
+				color: $yellow;
 				}
 	}
+			#footer-yellow-stripe{
+				background-color: $yellow;
+				width: 101vw;
+				height: .5em;
+				margin-top: 5vh;
+				margin-left: -96vw;
+				margin-bottom: -100vh;
+			}
+
+
 }
