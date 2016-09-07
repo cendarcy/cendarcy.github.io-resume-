@@ -1809,8 +1809,13 @@ nav {
   font-family: 'Karla', sans-serif;
   position: fixed;
   z-index: 100;
-  background-color: white; }
-  @media (min-width: 50vw) {
+  background-color: white;
+  width: 100vw; }
+  @media (min-width: 800px) {
+    nav {
+      width: 100vw;
+      font-size: 24px; } }
+  @media (min-width: 400px) {
     nav {
       width: 100vw;
       font-size: 24px; } }
@@ -1851,10 +1856,16 @@ nav h1 {
 
 div.page-about .blue-block {
   width: 5vw;
-  height: 95vh;
+  height: 100vh;
   background-color: rgba(30, 128, 126, 0.7);
   border-right: 1em solid #d13135;
   padding: 0; }
+  @media (min-width: 800px) {
+    div.page-about .blue-block {
+      height: 95vh; } }
+  @media (min-width: 400px) {
+    div.page-about .blue-block {
+      height: 95vh; } }
   div.page-about .blue-block .intro {
     display: inline-block;
     border-radius: 5px;
@@ -1866,19 +1877,22 @@ div.page-about .blue-block {
       display: block;
       padding-left: 20px;
       margin: 16px;
-      padding-right: 10vw; }
+      padding-right: 10vw;
+      padding-right: 100px; }
       div.page-about .blue-block .intro p#first {
         padding-top: 10px; }
-      @media (min-width: 50vw) {
+      @media (min-width: 800px) {
         div.page-about .blue-block .intro p {
           font-size: 24px;
           padding-left: 50px;
-          padding-top: 30px; } }
-    @media (min-width: 25vw) {
+          padding-top: 30px;
+          /*width: 20%;
+          height: 100vh;*/ } }
+    @media (min-width: 400px) {
       div.page-about .blue-block .intro {
         height: 650px;
         width: 800px; } }
-    @media (min-width: 50vw) {
+    @media (min-width: 800px) {
       div.page-about .blue-block .intro {
         height: 69vh;
         width: 100vw;
@@ -1889,6 +1903,9 @@ div.page-about .blue-block {
       height: .5em;
       margin-top: -8vh;
       margin-left: -5vw; }
+      @media (min-width: 800px) {
+        div.page-about .blue-block .intro #yellow-block {
+          margin-top: -8.5vh; } }
 
 ul.nav-social {
   background-color: transparent;
@@ -1916,7 +1933,10 @@ ul.nav-social {
   margin-top: 15px;
   background-color: white;
   border-radius: 50%;
-  border: 10px solid white; }
+  border: 10px solid white;
+  /*	@include breakpoint(medium){
+  		display: none;
+  	}	*/ }
 
 div.page-projects {
   width: 100vw;
@@ -1937,6 +1957,9 @@ div.page-projects {
     div.page-projects ul.image-list li.alternates {
       float: right;
       padding-right: 80px; }
+    div.page-projects ul.image-list a {
+      text-decoration: none;
+      color: #9E005B; }
   div.page-projects img {
     padding-top: 10vh;
     height: 50vh;
@@ -1997,10 +2020,10 @@ div.resume {
       margin: 10px 0px;
       line-height: 3em;
       font-size: 30px; }
-      @media (min-width: 25vw) {
+      @media (min-width: 400px) {
         div.resume > #resume-inside > span > h1 {
           font-size: 40px; } }
-      @media (min-width: 50vw) {
+      @media (min-width: 800px) {
         div.resume > #resume-inside > span > h1 {
           font-size: 50px; } }
     div.resume > #resume-inside > span > h2 {
@@ -2012,18 +2035,18 @@ div.resume {
       padding-left: 20px; }
       div.resume > #resume-inside > span > h2 a {
         margin-left: 20px; }
-        @media (min-width: 25vw) {
+        @media (min-width: 400px) {
           div.resume > #resume-inside > span > h2 a {
             font-size: 14px; } }
-        @media (min-width: 50vw) {
+        @media (min-width: 800px) {
           div.resume > #resume-inside > span > h2 a {
             font-size: 24px; } }
       div.resume > #resume-inside > span > h2#email {
         padding-top: 40px; }
-  @media (min-width: 25vw) {
+  @media (min-width: 400px) {
     div.resume {
       margin: 0px; } }
-  @media (min-width: 50vw) {
+  @media (min-width: 800px) {
     div.resume {
       padding-left: 50px;
       margin: 70px; } }
@@ -2067,7 +2090,7 @@ div.education {
     padding-top: 60px;
     padding-bottom: 20px;
     margin-left: -80vw; }
-    @media (min-width: 50vw) {
+    @media (min-width: 800px) {
       .footer .page-contact #portrait {
         width: 25%; } }
   .footer .page-contact ul.nav-social {

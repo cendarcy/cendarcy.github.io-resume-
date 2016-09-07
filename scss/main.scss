@@ -3,10 +3,10 @@
 		@media (min-width: 100vw) { @content; }
 	}
 	@else if $point == medium {
-		@media (min-width: 50vw) { @content; }
+		@media (min-width: 800px) { @content; }
 	}
 	@else if $point == small {
-		@media (min-width: 25vw) { @content; }
+		@media (min-width: 400px) { @content; }
 	}
 }
 
@@ -43,10 +43,18 @@ div.page-about{
 	
 	.blue-block{
 		width: 5vw;
-		height: 95vh;
+		height: 100vh;
 		background-color: $teal;
 		border-right: 1em solid $red;
 		padding: 0;
+
+			@include breakpoint(medium){
+					height: 95vh;
+			}
+
+			@include breakpoint(small){
+					height: 95vh;
+			}
 
 		.intro {
 			display: inline-block;
@@ -62,6 +70,7 @@ div.page-about{
 					padding-left: 20px;
 					margin: 16px;
 					padding-right: 10vw;
+					padding-right: 100px;
 					
 					&#first {
 						padding-top: 10px;
@@ -70,7 +79,10 @@ div.page-about{
 					@include breakpoint(medium){
 					font-size: 24px;
 					padding-left: 50px;
+
 					padding-top: 30px;
+					/*width: 20%;
+					height: 100vh;*/
 					}
 
 				}	
@@ -92,6 +104,10 @@ div.page-about{
 				height: .5em;
 				margin-top: -8vh;
 				margin-left: -5vw;
+
+				@include breakpoint(medium){
+					margin-top: -8.5vh;
+				}
 			}		
 		}		
 	}			
@@ -133,6 +149,11 @@ ul.nav-social {
   background-color: white;
   border-radius: 50%;
   border: 10px solid white;
+	
+/*	@include breakpoint(medium){
+		display: none;
+	}	*/				
+
 }
 
 //portfolio
@@ -164,6 +185,11 @@ div.page-projects {
   		li.alternates{
   			float: right;
   			padding-right: 80px;
+  		}
+
+  		a{
+  			text-decoration: none;
+  			color: #9E005B;
   		}
 		}
 			img {
