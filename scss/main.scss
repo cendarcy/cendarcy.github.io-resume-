@@ -60,7 +60,7 @@ div.page-about{
 			display: inline-block;
 			border-radius: 5px;
 			margin-bottom: 20px;
-			padding-top: 20vh;
+			padding-top: 12vh;
 			padding-left: 5vw;
 			float: left;
 
@@ -94,19 +94,26 @@ div.page-about{
 
 					@include breakpoint(medium){
 					height: 69vh;	
-					width: 100vw;
+					width: 75vw;
 					font-size: 24px;
 
 					}	
+				
+			#headshot{
+				float: right;
+				margin-top: -60vh;		
+				margin-right: -15vw;	
+			}	
+
 			#yellow-block{
 				background-color: $yellow;
 				width: 100vw;
 				height: .5em;
-				margin-top: -7vh;
-				margin-left: -5vw;
+				margin-top: -8vh;
+				margin-left: -4vw;
 
 				@include breakpoint(medium){
-					margin-top: -8.5vh;
+					margin-top: -8vh;
 				}
 			}		
 		}		
@@ -145,7 +152,7 @@ ul.nav-social {
 	font-size: 80px;
 	color: $yellow;
 	margin-left: 520px;
-  margin-top: 40px;
+  margin-top: -10px;
   background-color: white;
   border-radius: 50%;
   border: 10px solid white;
