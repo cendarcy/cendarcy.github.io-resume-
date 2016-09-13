@@ -102,7 +102,7 @@ div.page-about{
 				background-color: $yellow;
 				width: 100vw;
 				height: .5em;
-				margin-top: -8vh;
+				margin-top: -7.5vh;
 				margin-left: -5vw;
 
 				@include breakpoint(medium){
@@ -145,7 +145,7 @@ ul.nav-social {
 	font-size: 80px;
 	color: $yellow;
 	margin-left: 520px;
-  margin-top: 15px;
+  margin-top: 40px;
   background-color: white;
   border-radius: 50%;
   border: 10px solid white;
@@ -189,27 +189,31 @@ div.page-projects {
 
   		a{
   			text-decoration: none;
-  			color: #9E005B;
+  			color: $red;
+
+  			&:hover{
+  				color: $yellow;
+  			}
   		}
 		}
 			img {
 				padding-top: 10vh;
-				height: 50vh;
-				width: 50vw;
+				
 			  display: inline-block;
 
-			/*	@include breakpoint(small){
+				/*@include breakpoint(small){
 					width: 30%;
 					height: 30%;
 					padding-left: 0;
 				}
+				*/
 
 				@include breakpoint(medium){
-					width: 40%;
-					height: 40%;	
+					height: 50vh;
+					width: 50vw;
 					padding-left: 30px;	
 				}
-				*/
+				
 				
 			}
 			
@@ -254,11 +258,13 @@ div.pre-res {
 }
 
 div.resume {
-	border: 1px solid #03a378;
-	margin: 8px;
-	
+	border-top: 8em solid $teal;
+	border-left: 12em solid $teal;
+	border-right: 12em solid $teal;
+	border-bottom: 3em solid $teal;
+	width: 90vw;
 	> #resume-inside {
-		margin: 30px;
+		margin: 60px;
 
 		> span {
 
@@ -321,8 +327,8 @@ div.resume {
 	}
 
 	@include breakpoint(medium){
-		padding-left: 50px;
-		margin: 70px;
+		/*margin-top: 80px;*/
+		margin-left: -150px;
 	}
 
 }
@@ -341,7 +347,6 @@ div.education {
 	#blue-middle-stripe{
 		width: 100vw;
 		height: 30vh;
-		margin-top: -10vh;
 		background-color: $teal;
 	}
 

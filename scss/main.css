@@ -1901,7 +1901,7 @@ div.page-about .blue-block {
       background-color: #ff8c02;
       width: 100vw;
       height: .5em;
-      margin-top: -8vh;
+      margin-top: -7.5vh;
       margin-left: -5vw; }
       @media (min-width: 800px) {
         div.page-about .blue-block .intro #yellow-block {
@@ -1930,7 +1930,7 @@ ul.nav-social {
   font-size: 80px;
   color: #ff8c02;
   margin-left: 520px;
-  margin-top: 15px;
+  margin-top: 40px;
   background-color: white;
   border-radius: 50%;
   border: 10px solid white;
@@ -1959,24 +1959,23 @@ div.page-projects {
       padding-right: 80px; }
     div.page-projects ul.image-list a {
       text-decoration: none;
-      color: #9E005B; }
+      color: #d13135; }
+      div.page-projects ul.image-list a:hover {
+        color: #ff8c02; }
   div.page-projects img {
     padding-top: 10vh;
-    height: 50vh;
-    width: 50vw;
     display: inline-block;
-    			/*	@include breakpoint(small){
-    					width: 30%;
-    					height: 30%;
-    					padding-left: 0;
-    				}
-    
-    				@include breakpoint(medium){
-    					width: 40%;
-    					height: 40%;	
-    					padding-left: 30px;	
-    				}
-    				*/ }
+    /*@include breakpoint(small){
+    	width: 30%;
+    	height: 30%;
+    	padding-left: 0;
+    }
+    */ }
+    @media (min-width: 800px) {
+      div.page-projects img {
+        height: 50vh;
+        width: 50vw;
+        padding-left: 30px; } }
   div.page-projects div.box-text {
     margin-left: 50vw;
     padding-top: 15vh;
@@ -2004,10 +2003,13 @@ div.pre-res h1 {
   padding-left: 50px; }
 
 div.resume {
-  border: 1px solid #03a378;
-  margin: 8px; }
+  border-top: 8em solid rgba(30, 128, 126, 0.7);
+  border-left: 12em solid rgba(30, 128, 126, 0.7);
+  border-right: 12em solid rgba(30, 128, 126, 0.7);
+  border-bottom: 3em solid rgba(30, 128, 126, 0.7);
+  width: 90vw; }
   div.resume > #resume-inside {
-    margin: 30px; }
+    margin: 60px; }
     div.resume > #resume-inside > span > h1 {
       font-family: "Josefin Sans", sans-serif;
       font-weight: 300;
@@ -2048,8 +2050,8 @@ div.resume {
       margin: 0px; } }
   @media (min-width: 800px) {
     div.resume {
-      padding-left: 50px;
-      margin: 70px; } }
+      /*margin-top: 80px;*/
+      margin-left: -150px; } }
 
 div.education {
   clear: both; }
@@ -2059,7 +2061,6 @@ div.education {
 #blue-middle-stripe {
   width: 100vw;
   height: 30vh;
-  margin-top: -10vh;
   background-color: rgba(30, 128, 126, 0.7); }
 
 /*footer begins*/
