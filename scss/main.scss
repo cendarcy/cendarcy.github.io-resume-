@@ -218,7 +218,8 @@ div.page-projects {
 				@include breakpoint(medium){
 					height: 50vh;
 					width: 50vw;
-					padding-left: 30px;	
+					padding-left: 30px;
+					padding-right: 60px;	
 				}
 				
 				
@@ -227,13 +228,14 @@ div.page-projects {
 			div.box-text{
 				margin-left: 50vw;
 				padding-top: 15vh;
-				padding-left: 50px;
-				width: 30vw;
-			  height: 50vh;
-			  font-size: 20px;
+		    padding-left: 70px;
+		    width: 30vw;
+		    height: 50vh;
+		    font-size: 20px;
 				  h2{
 				  	font-family: $josefin;
 				  	border-bottom: 1px solid $yellow;
+				  	padding-left: 10px;
 				  }
 				}
 			div.box-text-2{
