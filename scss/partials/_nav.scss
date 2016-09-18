@@ -2,7 +2,7 @@ nav {
 	margin: 0px;
 	padding: 0px;
 	overflow: auto; 
-	font-size: 10px;
+	font-size: 0px;
 	font-family: 'Karla', sans-serif;
 	position: fixed;
 	z-index: 100;
@@ -28,12 +28,12 @@ nav {
 		list-style: none;
 
 		li {
-			
+			font-size: 40px;
 			display: block;
-		    float: left;
-		    margin: 0;
-		    padding: 0; 
-			
+	    float: left;
+	    margin: 0;
+	    padding: 0; 
+
 			a {
 				/*display: none;*/
       	padding: 18px 27px;

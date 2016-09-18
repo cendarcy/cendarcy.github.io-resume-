@@ -33,7 +33,7 @@ nav h1 {
   padding-left: 15px;
   border-right: 1px solid $yellow;
   float: left;
-  font-size: 45px;
+  font-size: 60px;
   font-family: $josefin;
   font-weight: 400;
 }
@@ -42,7 +42,7 @@ div.page-about{
   
   .blue-block{
     width: 5vw;
-    height: 130vh;
+    height: 150vh;
     background-color: $teal;
     border-right: 1em solid $red;
     padding: 0;
@@ -70,21 +70,14 @@ div.page-about{
           padding-top: 10px;
           margin: 16px;
           padding-right: 100px;
-          width: 700px;
-          font-size: 40px;
+          width: 900px;
+          font-size: 50px;
           
           &#first {
             padding-top: 10px;
           }
 
         } 
-
-  /*        @include breakpoint(medium){
-          height: 69vh; 
-          width: 75vw;
-          font-size: 24px;
-
-          } */  
     }   
   }     
 }
@@ -95,6 +88,7 @@ ul.nav-social {
   margin: 0;
   padding: 0;
   margin-left: 190px;
+  font-size: 50px;
 
   li {
     list-style: none;
