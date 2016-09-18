@@ -64,6 +64,7 @@ div.page-about{
       padding-left: 5vw;
       float: left;
       width: 800px;
+      height: 100vh;
         
       #headshot{
         float: right;
@@ -86,11 +87,6 @@ div.page-about{
           }
 
         } 
-
-          @include breakpoint(small) {
-            height: 650px;
-            width: 300px;
-          }
 
           @include breakpoint(medium){
           height: 69vh; 
