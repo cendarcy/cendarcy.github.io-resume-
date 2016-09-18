@@ -1,13 +1,13 @@
 @mixin breakpoint($point) {
-	@if $point == large {
-		@media (min-width: 100vw) { @content; }
-	}
-	@else if $point == medium {
-		@media (min-width: 800px) { @content; }
-	}
-	@else if $point == small {
-		@media (min-width: 400px) { @content; }
-	}
+  @if $point == large {
+    @media (min-width: 100vw) { @content; }
+  }
+  @else if $point == medium {
+    @media (min-width: 800px) { @content; }
+  }
+  @else if $point == small {
+    @media (min-width: 400px) { @content; }
+  }
 }
 
 @import 'partials/vendor/bourbon/bourbon';
@@ -19,239 +19,226 @@
 
 
 body {
-	font-size: 18px;
-	font-family: $karla;
-	color: black;
-	margin: 0;
+  font-size: 20px;
+  font-family: $karla;
+  color: black;
+  margin: 0;
 }
 
 
 nav h1 {
-	margin: 0;
-	padding: 0;
-	margin-top: 25px;
-	padding-right: 5px;
-	padding-left: 15px;
-	border-right: 1px solid $yellow;
-	float: left;
-	font-size: 45px;
-	font-family: $josefin;
-	font-weight: 400;
+  margin: 0;
+  padding: 0;
+  margin-top: 25px;
+  padding-right: 5px;
+  padding-left: 15px;
+  border-right: 1px solid $yellow;
+  float: left;
+  font-size: 45px;
+  font-family: $josefin;
+  font-weight: 400;
 }
 
 div.page-about{
-	
-	.blue-block{
-		width: 5vw;
-		height: 100vh;
-		background-color: $teal;
-		border-right: 1em solid $red;
-		padding: 0;
+  
+  .blue-block{
+    width: 5vw;
+    height: 200vh;
+    background-color: $teal;
+    border-right: 1em solid $red;
+    padding: 0;
 
-			@include breakpoint(medium){
-					height: 95vh;
-			}
+      @include breakpoint(medium){
+          height: 95vh;
+      }
 
-			@include breakpoint(small){
-					height: 95vh;
-			}
+      @include breakpoint(small){
+          /*height: 95vh;*/
+      }
 
-		.intro {
-			display: inline-block;
-			border-radius: 5px;
-			margin-bottom: 20px;
-			padding-top: 12vh;
-			padding-left: 5vw;
-			float: left;
+    .intro {
+      display: inline-block;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      padding-top: 300px;
+      padding-left: 5vw;
+      float: left;
+      width: 800px;
+        
+      #headshot{
+        float: right;
+        margin-top: -160px;    
+        margin-right: 8vw;
+      } 
 
+        p {
+          clear: both;
+          display: block;
+          padding-left: 18vw;
+          padding-top: 10px;
+          margin: 16px;
+          padding-right: 100px;
+          width: 700px;
+          font-size: 40px;
+          
+          &#first {
+            padding-top: 10px;
+          }
 
-				p {
-					display: block;
-					padding-left: 20px;
-					margin: 16px;
-					padding-right: 10vw;
-					padding-right: 100px;
-					
-					&#first {
-						padding-top: 10px;
-					}
+        } 
 
-					@include breakpoint(medium){
-					font-size: 24px;
-					padding-left: 50px;
+          @include breakpoint(small) {
+            height: 650px;
+            width: 300px;
+          }
 
-					padding-top: 30px;
-					/*width: 20%;
-					height: 100vh;*/
-					}
+          @include breakpoint(medium){
+          height: 69vh; 
+          width: 75vw;
+          font-size: 24px;
 
-				}	
-
-					@include breakpoint(small) {
-						height: 650px;
-						width: 800px;
-					}
-
-					@include breakpoint(medium){
-					height: 69vh;	
-					width: 75vw;
-					font-size: 24px;
-
-					}	
-				
-			#headshot{
-				float: right;
-				margin-top: -60px;		
-				margin-right: -15vw;	
-			}	
-
-			/*#yellow-block{
-				background-color: $yellow;
-				width: 100vw;
-				height: .5em;
-				margin-top: -8vh;
-				margin-left: -4vw;
-
-				@include breakpoint(medium){
-					margin-top: -8vh;
-				}*/
-			}		
-		}		
-	}			
+          }   
+    }   
+  }     
 }
 
 ul.nav-social {
-	background-color: transparent;
-	overflow: auto;
-	margin: 0;
-	padding: 0;
-	margin-left: 65px;
+  background-color: transparent;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  margin-left: 190px;
 
-	li {
-		list-style: none;
-		list-style: none;
-		padding-right: 15px;
-		float: left;
+  li {
+    list-style: none;
+    list-style: none;
+    padding-right: 15px;
+    float: left;
 
-		a {
-			color: $yellow;
-			}
+    a {
+      color: $yellow;
+      }
 
-			&:hover {
-				border-bottom: 1px solid $yellow;
-		}
+      &:hover {
+        border-bottom: 1px solid $yellow;
+    }
 
-		h1 {
-			margin: 0;
-		}
-	}		
+    h1 {
+      margin: 0;
+    }
+  }   
 }
 
 .fa-arrow-down  {
-	z-index: 3;
-	font-size: 80px;
-	color: $yellow;
-	margin-left: 520px;
+  display: none;
+  z-index: 3;
+  font-size: 80px;
+  color: $yellow;
+  margin-left: 520px;
   margin-top: -10px;
   background-color: white;
   border-radius: 50%;
   border: 10px solid white;
-	
-/*	@include breakpoint(medium){
-		display: none;
-	}	*/				
+  
+/*  @include breakpoint(medium){
+    display: none;
+  } */        
 
 }
 
 //portfolio
 
 div.page-projects {
-	width: 100vw;
-	overflow: auto;
-	padding-left: 20px;
-	padding-right: 40px;
-	background-color: $teal;
-	border-top: 1em solid $yellow;
-	
-	h1 {
-	font-size: 40px;	
-	color: rgba(3, 163, 120, 0.3);
-	padding-left: 50px;
-	}	
+  width: 140vw;
+  overflow: auto;
+  padding-right: 40px;
+  background-color: $teal;
+  border-top: 1em solid $yellow;
+  
+  h1 {
+  font-size: 40px;  
+  color: rgba(3, 163, 120, 0.3);
+  padding-left: 50px;
+  } 
 
-		ul.image-list {
-			list-style: none;
+    ul.image-list {
+      list-style: none;
 
 
-  		li {
-				display: inline-block;
-			  position: relative;
-			  float: left;
+      li {
+        display: inline-block;
+        position: relative;
+        float: left;
 
-  		}
+      }
 
-  		li.alternates{
-  			float: right;
-  			padding-right: 80px;
-  		}
+      li.alternates{
+      /*  float: right;*/
+        /*padding-right: 80px;*/
+      }
 
-  		a{
-  			text-decoration: none;
-  			color: $red;
+      a{
+        text-decoration: none;
+        color: $red;
 
-  			&:hover{
-  				color: $yellow;
-  			}
-  		}
-		}
-			img {
-				padding-top: 10vh;
-				
-			  display: inline-block;
+        &:hover{
+          color: $yellow;
+        }
+      }
+    }
+      img {
+        padding-top: 10vh;
+        height: 35vh;
+        width: 100vw;
+        display: inline-block;
+        margin-left: -60px;
+        padding-left: 10vw;
+        padding-bottom: 20px;
+        
+      }
+      
+      div.box-text{
+        margin-left: 40px;
+        padding-top: 15vh;
+        padding-bottom: 50px;
+        width: 100vw;
+        height: 50vh;
+        font-size: 40px;
+          h2{
+            font-family: $josefin;
+            border-bottom: 1px solid $yellow;
+            padding-left: 10px;
+          }
+          a{
+            color: black;
 
-				/*@include breakpoint(small){
-					width: 30%;
-					height: 30%;
-					padding-left: 0;
-				}
-				*/
+            &:hover{
+              color: $red;
+            }
+          }
+        }
+      div.box-text-2{
+        margin-left: 40px;
+        padding-top: 15vh;
+        padding-bottom: 50px;
+        margin-right: 50px;
+        width: 100vw;
+        height: 50vh;
+        font-size: 40px;
+        
+        h2{
+            font-family: $josefin;
+            border-bottom: 1px solid $red;
+          }
 
-				@include breakpoint(medium){
-					height: 50vh;
-					width: 50vw;
-					padding-left: 30px;
-					padding-right: 60px;	
-				}
-				
-				
-			}
-			
-			div.box-text{
-				margin-left: 50vw;
-				padding-top: 15vh;
-		    padding-left: 70px;
-		    width: 30vw;
-		    height: 50vh;
-		    font-size: 20px;
-				  h2{
-				  	font-family: $josefin;
-				  	border-bottom: 1px solid $yellow;
-				  	padding-left: 10px;
-				  }
-				}
-			div.box-text-2{
-				font-size: 20px;
-				margin-right: 50vw;
-				padding-top: 15vh;
-				padding-left: 30px;
-				width: 30vw;
-			  height: 50vh;
-				
-				h2{
-				  	font-family: $josefin;
-				  	border-bottom: 1px solid $red;
-				  }
-			}
+          a{
+            color: black;
+
+            &:hover{
+              color: $red;
+            }
+          }
+      }
 }
 
 
@@ -260,149 +247,122 @@ div.page-projects {
 
 div.pre-res {
 
-	h1 {
-	font-size: 40px;	
-	color: rgba(3, 163, 120, 0.3);
-	padding-left: 50px;
-	}	
+  h1 {
+  font-size: 40px;  
+  color: rgba(3, 163, 120, 0.3);
+  padding-left: 50px;
+  } 
 }
 
 div.resume {
-	border-top: 8em solid $teal;
-	border-left: 12em solid $teal;
-	border-right: 12em solid $teal;
-	border-bottom: 3em solid $teal;
-	width: 90vw;
-	> #resume-inside {
-		margin: 60px;
+  border-top: 8em solid $teal;
+  border-left: 12em solid $teal;
+  border-right: 12em solid $teal;
+  border-bottom: 3em solid $teal;
+  width: 100vw;
+  > #resume-inside {
+    margin: 80px;
 
-		> span {
 
-			> h1 {
-				font-family: $josefin;
-				font-weight: 300;
-				font-size: 50px;
-				color: #d98900;
-				display: block;
-				float: left;
-				border-right: 2px solid #d98900;
-				padding-right: 20px;
-				margin: 10px 0px;
-				line-height: 3em;
-				font-size: 30px;
+    > span {
 
-					@include breakpoint(small) {
-						font-size: 40px;	
-					}
+      > h1 {
+        font-family: $josefin;
+        font-weight: 300;
+        font-size: 50px;
+        color: #d98900;
+        display: block;
+        float: left;
+        border-right: 2px solid #d98900;
+        padding-right: 20px;
+        margin: 10px 0px;
+        line-height: 3em;
+        font-size: 30px;
 
-					@include breakpoint(medium) {
-						font-size: 50px;
-					}
-			}
-			
-			> h2 {
-				display: block;
-				font-size: 20px;
-				line-height: 10px;
-				padding-left: 0px;
-				font-size: 8px;
-				padding-left: 20px;
+          @include breakpoint(small) {
+            font-size: 40px;  
+          }
 
-					
-				a {
-					margin-left: 20px;
+          @include breakpoint(medium) {
+            font-size: 50px;
+          }
+      }
+      
+      > h2 {
+        display: block;
+        font-size: 30px;
+        line-height: 10px;
+        padding-left: 0px;
+        
 
-					@include breakpoint(small) {
-						font-size: 14px;
-					}
-					
-					@include breakpoint(medium) {
-						font-size: 24px;
-						
+          
+        a {
+          margin-left: 20px;
 
-					}
-				}
+          @include breakpoint(small) {
+            font-size: 14px;
+          }
+          
+          @include breakpoint(medium) {
+            font-size: 24px;
+            
 
-			&#email {
-				padding-top: 40px;
+          }
+        }
 
-			}		
-		}
-	}	
+      &#email {
+        padding-top: 40px;
+
+      }   
+    }
+  } 
 }
 
-	@include breakpoint(small) {
-		margin: 0px;
+  @include breakpoint(small) {
+    margin: 0px;
 
-	}
+  }
 
-	@include breakpoint(medium){
-		/*margin-top: 80px;*/
-		margin-left: -150px;
-	}
+  @include breakpoint(medium){
+    /*margin-top: 80px;*/
+    margin-left: -120px;
+  }
 
 }
 
 
 
 div.education {
-	clear: both;
+  clear: both;
 
-		p {
-			padding-left: 20px;
-		}
+    p {
+      padding-left: 20px;
+    }
 
 }
-
-	#blue-middle-stripe{
-		width: 100vw;
-		height: 30vh;
-		background-color: $teal;
-	}
 
 /*footer begins*/
 
 .footer {
-	.page-contact {
-		margin-bottom: -100vh;
-		padding-bottom: -50px;
+  .page-contact {
+    padding-top: 50px;
 
-		#footer-blue-stripe{
-			width: 6vw;
-			height: 50vh;
-			background-color: $teal;
-			border-left: 1em solid $red;
-			padding: 0;
-			margin-left: 93vw;
-			padding-top: 10px;
-		}
+  p{
+    width: 100vw;
+    height: 20vh;
+    font-size: 40px;
+    margin-left: 50px;
 
-	p{
-		width: 100vw;
-		height: 20vh;
-		margin-left: -89vw;
-		font-size: 20px;
-	}
-	
+  }
+        
+      ul.nav-social {
+        font-size: 30px;
+        margin-left: 4vw;
+        margin-top: -10vh;
+        width: 100vw; 
+        border-bottom: white;
+        color: $yellow;
 
-	}			
-			ul.nav-social {
-				margin-left: -89vw;
-				margin-top: -10vh;
-				width: 100vw;	
-				border-bottom: white;
-				color: $yellow;
-
-				}
-	}
-/*			#footer-yellow-stripe{
-				background-color: $yellow;
-				width: 101vw;
-				height: .5em;
-				margin-top: 5vh;
-				margin-left: -96vw;
-				
-			}*/
-
-
+        }
+  }
 }

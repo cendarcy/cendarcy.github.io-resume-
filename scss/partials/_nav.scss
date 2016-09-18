@@ -8,15 +8,19 @@ nav {
 	z-index: 100;
 	background-color: white;
 	width: 100vw;
+	font-size: 30px;
+	/*display: none;*/
 
 	@include breakpoint(medium){
 		width: 100vw;
-		font-size: 24px;
+		/*font-size: 24px;*/
+		display: inline;
 	}
 
-	@include breakpoint(small){
-		width: 100vw;
-		font-size: 24px;
+	@include breakpoint(large){
+		/*width: 100vw;
+		font-size: 24px;*/
+		displaY: inline;
 	}
 
 	ul {
@@ -31,8 +35,8 @@ nav {
 		    padding: 0; 
 			
 			a {
-				display: block;
-      			padding: 18px 27px;
+				/*display: none;*/
+      	padding: 18px 27px;
 				color: black;
 				text-decoration: none;
 

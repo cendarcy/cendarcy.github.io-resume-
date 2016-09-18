@@ -1810,15 +1810,19 @@ nav {
   position: fixed;
   z-index: 100;
   background-color: white;
-  width: 100vw; }
+  width: 100vw;
+  font-size: 30px;
+  /*display: none;*/ }
   @media (min-width: 800px) {
     nav {
       width: 100vw;
-      font-size: 24px; } }
-  @media (min-width: 400px) {
+      /*font-size: 24px;*/
+      display: inline; } }
+  @media (min-width: 100vw) {
     nav {
-      width: 100vw;
-      font-size: 24px; } }
+      /*width: 100vw;
+      font-size: 24px;*/
+      displaY: inline; } }
   nav ul {
     margin-top: 15px;
     list-style: none; }
@@ -1828,7 +1832,7 @@ nav {
       margin: 0;
       padding: 0; }
       nav ul li a {
-        display: block;
+        /*display: none;*/
         padding: 18px 27px;
         color: black;
         text-decoration: none; }
@@ -1837,7 +1841,7 @@ nav {
           transform: scale(1.1, 1.1); }
 
 body {
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Karla", sans-serif;
   color: black;
   margin: 0; }
@@ -1856,7 +1860,7 @@ nav h1 {
 
 div.page-about .blue-block {
   width: 5vw;
-  height: 100vh;
+  height: 200vh;
   background-color: rgba(30, 128, 126, 0.7);
   border-right: 1em solid #d13135;
   padding: 0; }
@@ -1865,58 +1869,46 @@ div.page-about .blue-block {
       height: 95vh; } }
   @media (min-width: 400px) {
     div.page-about .blue-block {
-      height: 95vh; } }
+      /*height: 95vh;*/ } }
   div.page-about .blue-block .intro {
     display: inline-block;
     border-radius: 5px;
     margin-bottom: 20px;
-    padding-top: 12vh;
+    padding-top: 300px;
     padding-left: 5vw;
-    float: left; }
+    float: left;
+    width: 800px; }
+    div.page-about .blue-block .intro #headshot {
+      float: right;
+      margin-top: -160px;
+      margin-right: 8vw; }
     div.page-about .blue-block .intro p {
+      clear: both;
       display: block;
-      padding-left: 20px;
+      padding-left: 18vw;
+      padding-top: 10px;
       margin: 16px;
-      padding-right: 10vw;
-      padding-right: 100px; }
+      padding-right: 100px;
+      width: 700px;
+      font-size: 40px; }
       div.page-about .blue-block .intro p#first {
         padding-top: 10px; }
-      @media (min-width: 800px) {
-        div.page-about .blue-block .intro p {
-          font-size: 24px;
-          padding-left: 50px;
-          padding-top: 30px;
-          /*width: 20%;
-          height: 100vh;*/ } }
     @media (min-width: 400px) {
       div.page-about .blue-block .intro {
         height: 650px;
-        width: 800px; } }
+        width: 300px; } }
     @media (min-width: 800px) {
       div.page-about .blue-block .intro {
         height: 69vh;
         width: 75vw;
         font-size: 24px; } }
-    div.page-about .blue-block .intro #headshot {
-      float: right;
-      margin-top: -60vh;
-      margin-right: -15vw; }
-    div.page-about .blue-block .intro #yellow-block {
-      background-color: #ff8c02;
-      width: 100vw;
-      height: .5em;
-      margin-top: -8vh;
-      margin-left: -4vw; }
-      @media (min-width: 800px) {
-        div.page-about .blue-block .intro #yellow-block {
-          margin-top: -8vh; } }
 
 ul.nav-social {
   background-color: transparent;
   overflow: auto;
   margin: 0;
   padding: 0;
-  margin-left: 65px; }
+  margin-left: 190px; }
   ul.nav-social li {
     list-style: none;
     list-style: none;
@@ -1930,6 +1922,7 @@ ul.nav-social {
       margin: 0; }
 
 .fa-arrow-down {
+  display: none;
   z-index: 3;
   font-size: 80px;
   color: #ff8c02;
@@ -1938,16 +1931,16 @@ ul.nav-social {
   background-color: white;
   border-radius: 50%;
   border: 10px solid white;
-  /*	@include breakpoint(medium){
-  		display: none;
-  	}	*/ }
+  /*  @include breakpoint(medium){
+      display: none;
+    } */ }
 
 div.page-projects {
-  width: 100vw;
+  width: 140vw;
   overflow: auto;
-  padding-left: 20px;
   padding-right: 40px;
-  background-color: rgba(30, 128, 126, 0.7); }
+  background-color: rgba(30, 128, 126, 0.7);
+  border-top: 1em solid #ff8c02; }
   div.page-projects h1 {
     font-size: 40px;
     color: rgba(3, 163, 120, 0.3);
@@ -1959,8 +1952,8 @@ div.page-projects {
       position: relative;
       float: left; }
     div.page-projects ul.image-list li.alternates {
-      float: right;
-      padding-right: 80px; }
+      /*  float: right;*/
+      /*padding-right: 80px;*/ }
     div.page-projects ul.image-list a {
       text-decoration: none;
       color: #d13135; }
@@ -1968,40 +1961,42 @@ div.page-projects {
         color: #ff8c02; }
   div.page-projects img {
     padding-top: 10vh;
+    height: 35vh;
+    width: 100vw;
     display: inline-block;
-    /*@include breakpoint(small){
-    	width: 30%;
-    	height: 30%;
-    	padding-left: 0;
-    }
-    */ }
-    @media (min-width: 800px) {
-      div.page-projects img {
-        height: 50vh;
-        width: 50vw;
-        padding-left: 30px;
-        padding-right: 60px; } }
+    margin-left: -60px;
+    padding-left: 10vw;
+    padding-bottom: 20px; }
   div.page-projects div.box-text {
-    margin-left: 50vw;
+    margin-left: 40px;
     padding-top: 15vh;
-    padding-left: 70px;
-    width: 30vw;
+    padding-bottom: 50px;
+    width: 100vw;
     height: 50vh;
-    font-size: 20px; }
+    font-size: 40px; }
     div.page-projects div.box-text h2 {
       font-family: "Josefin Sans", sans-serif;
       border-bottom: 1px solid #ff8c02;
       padding-left: 10px; }
+    div.page-projects div.box-text a {
+      color: black; }
+      div.page-projects div.box-text a:hover {
+        color: #d13135; }
   div.page-projects div.box-text-2 {
-    font-size: 20px;
-    margin-right: 50vw;
+    margin-left: 40px;
     padding-top: 15vh;
-    padding-left: 30px;
-    width: 30vw;
-    height: 50vh; }
+    padding-bottom: 50px;
+    margin-right: 50px;
+    width: 100vw;
+    height: 50vh;
+    font-size: 40px; }
     div.page-projects div.box-text-2 h2 {
       font-family: "Josefin Sans", sans-serif;
       border-bottom: 1px solid #d13135; }
+    div.page-projects div.box-text-2 a {
+      color: black; }
+      div.page-projects div.box-text-2 a:hover {
+        color: #d13135; }
 
 div.pre-res h1 {
   font-size: 40px;
@@ -2013,9 +2008,9 @@ div.resume {
   border-left: 12em solid rgba(30, 128, 126, 0.7);
   border-right: 12em solid rgba(30, 128, 126, 0.7);
   border-bottom: 3em solid rgba(30, 128, 126, 0.7);
-  width: 90vw; }
+  width: 100vw; }
   div.resume > #resume-inside {
-    margin: 60px; }
+    margin: 80px; }
     div.resume > #resume-inside > span > h1 {
       font-family: "Josefin Sans", sans-serif;
       font-weight: 300;
@@ -2036,11 +2031,9 @@ div.resume {
           font-size: 50px; } }
     div.resume > #resume-inside > span > h2 {
       display: block;
-      font-size: 20px;
+      font-size: 30px;
       line-height: 10px;
-      padding-left: 0px;
-      font-size: 8px;
-      padding-left: 20px; }
+      padding-left: 0px; }
       div.resume > #resume-inside > span > h2 a {
         margin-left: 20px; }
         @media (min-width: 400px) {
@@ -2057,61 +2050,27 @@ div.resume {
   @media (min-width: 800px) {
     div.resume {
       /*margin-top: 80px;*/
-      margin-left: -150px; } }
+      margin-left: -120px; } }
 
 div.education {
   clear: both; }
   div.education p {
     padding-left: 20px; }
 
-#blue-middle-stripe {
-  width: 100vw;
-  height: 30vh;
-  background-color: rgba(30, 128, 126, 0.7); }
-
 /*footer begins*/
 .footer .page-contact {
-  margin-bottom: -50px;
-  padding-bottom: -50px; }
-  .footer .page-contact #footer-blue-stripe {
-    width: 6vw;
-    height: 50vh;
-    background-color: rgba(30, 128, 126, 0.7);
-    border-left: 1em solid #d13135;
-    padding: 0;
-    margin-left: 93vw;
-    padding-top: 10px; }
+  padding-top: 50px; }
   .footer .page-contact p {
     width: 100vw;
     height: 20vh;
-    margin-left: -89vw;
-    font-size: 20px; }
-  .footer .page-contact #portrait {
-    /*background-image: url("/images/photo.jpg");*/
-    display: block;
-    float: right;
-    width: 300%;
-    height: 100%;
-    padding-left: 110px;
-    padding-right: 110px;
-    padding-top: 60px;
-    padding-bottom: 20px;
-    margin-left: -80vw; }
-    @media (min-width: 800px) {
-      .footer .page-contact #portrait {
-        width: 25%; } }
+    font-size: 40px;
+    margin-left: 50px; }
   .footer .page-contact ul.nav-social {
-    margin-left: -89vw;
+    font-size: 30px;
+    margin-left: 4vw;
     margin-top: -10vh;
     width: 100vw;
     border-bottom: white;
     color: #ff8c02; }
-.footer #footer-yellow-stripe {
-  background-color: #ff8c02;
-  width: 101vw;
-  height: .5em;
-  margin-top: 5vh;
-  margin-left: -96vw;
-  margin-bottom: -100vh; }
 
 /*# sourceMappingURL=main.css.map */
