@@ -19,7 +19,6 @@
 
 
 body {
-  font-size: 40px;
   font-family: $karla;
   color: black;
   margin: 0;
@@ -244,12 +243,12 @@ div.pre-res {
 
 div.resume {
   border-top: 8em solid $teal;
-  border-left: 5em solid $teal;
+  border-left: 8em solid $teal;
   border-right: 10em solid $teal;
   border-bottom: 3em solid $teal;
-  width: 140vw;
+  width: 120vw;
   > #resume-inside {
-    margin: 80px;
+    margin: 100px;
 
 
     > span {
@@ -266,14 +265,10 @@ div.resume {
         margin: 10px 0px;
         line-height: 3em;
         font-size: 30px;
+      }
 
-          @include breakpoint(small) {
-            font-size: 40px;  
-          }
-
-          @include breakpoint(medium) {
-            font-size: 50px;
-          }
+      > ul li {
+        font-size: 20px;
       }
       
       > h2 {
@@ -287,15 +282,6 @@ div.resume {
         a {
           margin-left: 20px;
 
-          @include breakpoint(small) {
-            font-size: 14px;
-          }
-          
-          @include breakpoint(medium) {
-            font-size: 24px;
-            
-
-          }
         }
 
       &#email {
@@ -306,15 +292,6 @@ div.resume {
   } 
 }
 
-  @include breakpoint(small) {
-    margin: 0px;
-
-  }
-
-  @include breakpoint(medium){
-    /*margin-top: 80px;*/
-   /* margin-left: -120px;*/
-  }
 
 }
 

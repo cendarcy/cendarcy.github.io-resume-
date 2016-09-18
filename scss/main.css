@@ -1841,7 +1841,6 @@ nav {
           transform: scale(1.1, 1.1); }
 
 body {
-  font-size: 40px;
   font-family: "Karla", sans-serif;
   color: black;
   margin: 0; }
@@ -1997,12 +1996,12 @@ div.pre-res h1 {
 
 div.resume {
   border-top: 8em solid rgba(30, 128, 126, 0.7);
-  border-left: 5em solid rgba(30, 128, 126, 0.7);
+  border-left: 8em solid rgba(30, 128, 126, 0.7);
   border-right: 10em solid rgba(30, 128, 126, 0.7);
   border-bottom: 3em solid rgba(30, 128, 126, 0.7);
-  width: 140vw; }
+  width: 120vw; }
   div.resume > #resume-inside {
-    margin: 80px; }
+    margin: 100px; }
     div.resume > #resume-inside > span > h1 {
       font-family: "Josefin Sans", sans-serif;
       font-weight: 300;
@@ -2015,12 +2014,8 @@ div.resume {
       margin: 10px 0px;
       line-height: 3em;
       font-size: 30px; }
-      @media (max-width: 400px) {
-        div.resume > #resume-inside > span > h1 {
-          font-size: 40px; } }
-      @media (max-width: 800px) {
-        div.resume > #resume-inside > span > h1 {
-          font-size: 50px; } }
+    div.resume > #resume-inside > span > ul li {
+      font-size: 20px; }
     div.resume > #resume-inside > span > h2 {
       display: block;
       font-size: 30px;
@@ -2028,21 +2023,8 @@ div.resume {
       padding-left: 0px; }
       div.resume > #resume-inside > span > h2 a {
         margin-left: 20px; }
-        @media (max-width: 400px) {
-          div.resume > #resume-inside > span > h2 a {
-            font-size: 14px; } }
-        @media (max-width: 800px) {
-          div.resume > #resume-inside > span > h2 a {
-            font-size: 24px; } }
       div.resume > #resume-inside > span > h2#email {
         padding-top: 40px; }
-  @media (max-width: 400px) {
-    div.resume {
-      margin: 0px; } }
-  @media (max-width: 800px) {
-    div.resume {
-      /*margin-top: 80px;*/
-      /* margin-left: -120px;*/ } }
 
 div.education {
   clear: both; }
