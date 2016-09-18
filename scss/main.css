@@ -1962,6 +1962,7 @@ div.page-projects {
     font-size: 50px; }
     div.page-projects div.box-text h2 {
       font-family: "Josefin Sans", sans-serif;
+      font-weight: 400;
       border-bottom: 1px solid #ff8c02;
       padding-left: 10px; }
     div.page-projects div.box-text a {
@@ -1978,6 +1979,7 @@ div.page-projects {
     font-size: 50px; }
     div.page-projects div.box-text-2 h2 {
       font-family: "Josefin Sans", sans-serif;
+      font-weight: 400;
       border-bottom: 1px solid #d13135; }
     div.page-projects div.box-text-2 a {
       color: black; }
