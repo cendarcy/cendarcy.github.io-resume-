@@ -1810,7 +1810,7 @@ nav {
   position: fixed;
   z-index: 100;
   background-color: white;
-  width: 100vw;
+  width: 120vw;
   font-size: 30px;
   /*display: none;*/ }
   @media (min-width: 800px) {
@@ -1877,7 +1877,8 @@ div.page-about .blue-block {
     padding-top: 300px;
     padding-left: 5vw;
     float: left;
-    width: 800px; }
+    width: 800px;
+    height: 100vh; }
     div.page-about .blue-block .intro #headshot {
       float: right;
       margin-top: -160px;
@@ -1893,10 +1894,6 @@ div.page-about .blue-block {
       font-size: 40px; }
       div.page-about .blue-block .intro p#first {
         padding-top: 10px; }
-    @media (min-width: 400px) {
-      div.page-about .blue-block .intro {
-        height: 650px;
-        width: 300px; } }
     @media (min-width: 800px) {
       div.page-about .blue-block .intro {
         height: 69vh;
@@ -1938,7 +1935,7 @@ ul.nav-social {
 div.page-projects {
   width: 140vw;
   overflow: auto;
-  padding-right: 40px;
+  padding-right: 50px;
   background-color: rgba(30, 128, 126, 0.7);
   border-top: 1em solid #ff8c02; }
   div.page-projects h1 {
@@ -1950,7 +1947,9 @@ div.page-projects {
     div.page-projects ul.image-list li {
       display: inline-block;
       position: relative;
-      float: left; }
+      float: left;
+      margin-left: 30px;
+      padding-left: 10vw; }
     div.page-projects ul.image-list li.alternates {
       /*  float: right;*/
       /*padding-right: 80px;*/ }
@@ -1964,11 +1963,9 @@ div.page-projects {
     height: 35vh;
     width: 100vw;
     display: inline-block;
-    margin-left: -60px;
-    padding-left: 10vw;
     padding-bottom: 20px; }
   div.page-projects div.box-text {
-    margin-left: 40px;
+    margin-left: 150px;
     padding-top: 15vh;
     padding-bottom: 50px;
     width: 100vw;
@@ -1983,7 +1980,7 @@ div.page-projects {
       div.page-projects div.box-text a:hover {
         color: #d13135; }
   div.page-projects div.box-text-2 {
-    margin-left: 40px;
+    margin-left: 150px;
     padding-top: 15vh;
     padding-bottom: 50px;
     margin-right: 50px;
@@ -2005,10 +2002,10 @@ div.pre-res h1 {
 
 div.resume {
   border-top: 8em solid rgba(30, 128, 126, 0.7);
-  border-left: 12em solid rgba(30, 128, 126, 0.7);
-  border-right: 12em solid rgba(30, 128, 126, 0.7);
+  border-left: 5em solid rgba(30, 128, 126, 0.7);
+  border-right: 10em solid rgba(30, 128, 126, 0.7);
   border-bottom: 3em solid rgba(30, 128, 126, 0.7);
-  width: 100vw; }
+  width: 120vw; }
   div.resume > #resume-inside {
     margin: 80px; }
     div.resume > #resume-inside > span > h1 {
@@ -2050,7 +2047,7 @@ div.resume {
   @media (min-width: 800px) {
     div.resume {
       /*margin-top: 80px;*/
-      margin-left: -120px; } }
+      /* margin-left: -120px;*/ } }
 
 div.education {
   clear: both; }

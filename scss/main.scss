@@ -147,7 +147,7 @@ ul.nav-social {
 div.page-projects {
   width: 140vw;
   overflow: auto;
-  padding-right: 40px;
+  padding-right: 50px;
   background-color: $teal;
   border-top: 1em solid $yellow;
   
@@ -165,6 +165,8 @@ div.page-projects {
         display: inline-block;
         position: relative;
         float: left;
+        margin-left: 30px;
+        padding-left: 10vw;
 
       }
 
@@ -187,14 +189,12 @@ div.page-projects {
         height: 35vh;
         width: 100vw;
         display: inline-block;
-        margin-left: -60px;
-        padding-left: 10vw;
         padding-bottom: 20px;
         
       }
       
       div.box-text{
-        margin-left: 40px;
+        margin-left: 150px;
         padding-top: 15vh;
         padding-bottom: 50px;
         width: 100vw;
@@ -214,7 +214,7 @@ div.page-projects {
           }
         }
       div.box-text-2{
-        margin-left: 40px;
+        margin-left: 150px;
         padding-top: 15vh;
         padding-bottom: 50px;
         margin-right: 50px;
@@ -252,10 +252,10 @@ div.pre-res {
 
 div.resume {
   border-top: 8em solid $teal;
-  border-left: 12em solid $teal;
-  border-right: 12em solid $teal;
+  border-left: 5em solid $teal;
+  border-right: 10em solid $teal;
   border-bottom: 3em solid $teal;
-  width: 100vw;
+  width: 120vw;
   > #resume-inside {
     margin: 80px;
 
@@ -321,7 +321,7 @@ div.resume {
 
   @include breakpoint(medium){
     /*margin-top: 80px;*/
-    margin-left: -120px;
+   /* margin-left: -120px;*/
   }
 
 }
