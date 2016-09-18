@@ -2003,7 +2003,7 @@ div.resume {
     margin: 100px; }
     div.resume > #resume-inside > span > h1 {
       font-family: "Josefin Sans", sans-serif;
-      font-weight: 300;
+      font-weight: 400;
       font-size: 70px;
       color: #d98900;
       display: block;
@@ -2018,7 +2018,9 @@ div.resume {
       display: block;
       font-size: 35px;
       line-height: 10px;
-      padding-left: 0px; }
+      padding-left: 0px;
+      font-family: "Josefin Sans", sans-serif;
+      font-weight: 400; }
       div.resume > #resume-inside > span > h2 a {
         margin-left: 20px; }
       div.resume > #resume-inside > span > h2#email {
