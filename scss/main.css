@@ -1881,7 +1881,8 @@ div.page-about .blue-block {
     div.page-about .blue-block .intro #headshot {
       float: right;
       margin-top: -160px;
-      margin-right: 8vw; }
+      margin-right: 8vw;
+      margin-bottom: 20px; }
     div.page-about .blue-block .intro p {
       clear: both;
       display: block;
@@ -1927,7 +1928,7 @@ ul.nav-social {
     } */ }
 
 div.page-projects {
-  width: 140vw;
+  width: 160vw;
   overflow: auto;
   padding-right: 50px;
   background-color: rgba(30, 128, 126, 0.7);
