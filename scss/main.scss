@@ -1,12 +1,12 @@
 @mixin breakpoint($point) {
   @if $point == large {
-    @media (min-width: 100vw) { @content; }
+    @media (max-width: 100vw) { @content; }
   }
   @else if $point == medium {
-    @media (min-width: 800px) { @content; }
+    @media (max-width: 800px) { @content; }
   }
   @else if $point == small {
-    @media (min-width: 400px) { @content; }
+    @media (max-width: 400px) { @content; }
   }
 }
 
@@ -43,18 +43,10 @@ div.page-about{
   
   .blue-block{
     width: 5vw;
-    height: 200vh;
+    height: 130vh;
     background-color: $teal;
     border-right: 1em solid $red;
     padding: 0;
-
-      @include breakpoint(medium){
-          height: 95vh;
-      }
-
-      @include breakpoint(small){
-          /*height: 95vh;*/
-      }
 
     .intro {
       display: inline-block;
@@ -64,7 +56,6 @@ div.page-about{
       padding-left: 5vw;
       float: left;
       width: 800px;
-      height: 100vh;
         
       #headshot{
         float: right;
@@ -88,12 +79,12 @@ div.page-about{
 
         } 
 
-          @include breakpoint(medium){
+  /*        @include breakpoint(medium){
           height: 69vh; 
           width: 75vw;
           font-size: 24px;
 
-          }   
+          } */  
     }   
   }     
 }

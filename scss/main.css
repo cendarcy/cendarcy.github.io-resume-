@@ -1813,12 +1813,12 @@ nav {
   width: 120vw;
   font-size: 30px;
   /*display: none;*/ }
-  @media (min-width: 800px) {
+  @media (max-width: 800px) {
     nav {
       width: 100vw;
       /*font-size: 24px;*/
       display: inline; } }
-  @media (min-width: 100vw) {
+  @media (max-width: 100vw) {
     nav {
       /*width: 100vw;
       font-size: 24px;*/
@@ -1860,16 +1860,10 @@ nav h1 {
 
 div.page-about .blue-block {
   width: 5vw;
-  height: 200vh;
+  height: 130vh;
   background-color: rgba(30, 128, 126, 0.7);
   border-right: 1em solid #d13135;
   padding: 0; }
-  @media (min-width: 800px) {
-    div.page-about .blue-block {
-      height: 95vh; } }
-  @media (min-width: 400px) {
-    div.page-about .blue-block {
-      /*height: 95vh;*/ } }
   div.page-about .blue-block .intro {
     display: inline-block;
     border-radius: 5px;
@@ -1878,7 +1872,12 @@ div.page-about .blue-block {
     padding-left: 5vw;
     float: left;
     width: 800px;
-    height: 100vh; }
+  /*        @include breakpoint(medium){
+          height: 69vh; 
+          width: 75vw;
+          font-size: 24px;
+
+          } */ }
     div.page-about .blue-block .intro #headshot {
       float: right;
       margin-top: -160px;
@@ -1894,11 +1893,6 @@ div.page-about .blue-block {
       font-size: 40px; }
       div.page-about .blue-block .intro p#first {
         padding-top: 10px; }
-    @media (min-width: 800px) {
-      div.page-about .blue-block .intro {
-        height: 69vh;
-        width: 75vw;
-        font-size: 24px; } }
 
 ul.nav-social {
   background-color: transparent;
@@ -2020,10 +2014,10 @@ div.resume {
       margin: 10px 0px;
       line-height: 3em;
       font-size: 30px; }
-      @media (min-width: 400px) {
+      @media (max-width: 400px) {
         div.resume > #resume-inside > span > h1 {
           font-size: 40px; } }
-      @media (min-width: 800px) {
+      @media (max-width: 800px) {
         div.resume > #resume-inside > span > h1 {
           font-size: 50px; } }
     div.resume > #resume-inside > span > h2 {
@@ -2033,18 +2027,18 @@ div.resume {
       padding-left: 0px; }
       div.resume > #resume-inside > span > h2 a {
         margin-left: 20px; }
-        @media (min-width: 400px) {
+        @media (max-width: 400px) {
           div.resume > #resume-inside > span > h2 a {
             font-size: 14px; } }
-        @media (min-width: 800px) {
+        @media (max-width: 800px) {
           div.resume > #resume-inside > span > h2 a {
             font-size: 24px; } }
       div.resume > #resume-inside > span > h2#email {
         padding-top: 40px; }
-  @media (min-width: 400px) {
+  @media (max-width: 400px) {
     div.resume {
       margin: 0px; } }
-  @media (min-width: 800px) {
+  @media (max-width: 800px) {
     div.resume {
       /*margin-top: 80px;*/
       /* margin-left: -120px;*/ } }
