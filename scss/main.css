@@ -2014,6 +2014,8 @@ div.resume {
       line-height: 3em; }
     div.resume > #resume-inside > span > ul li {
       font-size: 40px; }
+    div.resume > #resume-inside > span > p {
+      font-size: 40px; }
     div.resume > #resume-inside > span > h2 {
       display: block;
       font-size: 35px;
