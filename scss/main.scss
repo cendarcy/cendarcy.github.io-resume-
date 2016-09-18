@@ -33,7 +33,7 @@ nav h1 {
   padding-left: 15px;
   border-right: 1px solid $yellow;
   float: left;
-  font-size: 60px;
+  font-size: 70px;
   font-family: $josefin;
   font-weight: 400;
 }
@@ -42,7 +42,7 @@ div.page-about{
   
   .blue-block{
     width: 5vw;
-    height: 150vh;
+    height: 170vh;
     background-color: $teal;
     border-right: 1em solid $red;
     padding: 0;
@@ -71,7 +71,7 @@ div.page-about{
           margin: 16px;
           padding-right: 100px;
           width: 900px;
-          font-size: 50px;
+          font-size: 60px;
           
           &#first {
             padding-top: 10px;
@@ -137,7 +137,7 @@ div.page-projects {
   border-top: 1em solid $yellow;
   
   h1 {
-  font-size: 40px;  
+  font-size: 50px;  
   color: rgba(3, 163, 120, 0.3);
   padding-left: 50px;
   } 
@@ -152,7 +152,7 @@ div.page-projects {
         float: left;
         margin-left: 30px;
         padding-left: 10vw;
-
+        padding-top: 20vh;
       }
 
       li.alternates{
@@ -170,11 +170,10 @@ div.page-projects {
       }
     }
       img {
-        padding-top: 10vh;
+        
         height: 35vh;
         width: 100vw;
         display: inline-block;
-        padding-bottom: 20px;
         
       }
       
@@ -184,7 +183,7 @@ div.page-projects {
         padding-bottom: 50px;
         width: 100vw;
         height: 50vh;
-        font-size: 40px;
+        font-size: 50px;
           h2{
             font-family: $josefin;
             border-bottom: 1px solid $yellow;
@@ -201,11 +200,11 @@ div.page-projects {
       div.box-text-2{
         margin-left: 150px;
         padding-top: 15vh;
-        padding-bottom: 50px;
+        padding-bottom: 150px;
         margin-right: 50px;
         width: 100vw;
         height: 50vh;
-        font-size: 40px;
+        font-size: 50px;
         
         h2{
             font-family: $josefin;
@@ -250,7 +249,7 @@ div.resume {
       > h1 {
         font-family: $josefin;
         font-weight: 300;
-        font-size: 50px;
+        font-size: 70px;
         color: #d98900;
         display: block;
         float: left;
@@ -258,16 +257,15 @@ div.resume {
         padding-right: 20px;
         margin: 10px 0px;
         line-height: 3em;
-        font-size: 30px;
       }
 
       > ul li {
-        font-size: 20px;
+        font-size: 40px;
       }
       
       > h2 {
         display: block;
-        font-size: 30px;
+        font-size: 35px;
         line-height: 10px;
         padding-left: 0px;
         
@@ -309,15 +307,15 @@ div.education {
   p{
     width: 100vw;
     height: 20vh;
-    font-size: 40px;
+    font-size: 50px;
     margin-left: 50px;
 
   }
         
       ul.nav-social {
-        font-size: 30px;
+        font-size: 40px;
         margin-left: 4vw;
-        margin-top: -10vh;
+        margin-top: -5vh;
         width: 100vw; 
         border-bottom: white;
         color: $yellow;
