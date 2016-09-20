@@ -1,11 +1,17 @@
 @mixin breakpoint($point){
-  @if $point == desktop{
-    @media (max-width: 1950px){ @content; }
+  @if $point == desktop-plus{
+    @media (max-width: 1900px){ @content; }
+  }
+  @else if $point == desktop {
+    @media (max-width: 1700px){ @content; }
   }
   @else if $point == laptop {
     @media (max-width: 1400px){ @content; }
   }
   @else if $point == tablet {
+    @media (max-width: 800px) { @content; }
+  }
+  @else if $point == phone {
     @media (max-width: 800px) { @content; }
   }
 }
@@ -49,8 +55,12 @@ div.page-about{
     background-color: $teal;
     border-right: 1em solid $red;
     padding: 0;
+
+    @include breakpoint(desktop-plus){
+      height: 90vh;
+    }
     
-     @include breakpoint(desktop){
+    @include breakpoint(desktop){
       height: 120vh;
     }
 
@@ -78,6 +88,10 @@ div.page-about{
           margin-top: 15px;
           margin-right: -40vw;
          }
+
+        @include breakpoint(laptop){
+          margin-right: -25vw;
+        }
       } 
 
         p {
