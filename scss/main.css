@@ -1982,11 +1982,11 @@ div.page-projects {
       @media (max-width: 1700px) {
         div.page-projects ul.image-list li.alternates {
           float: right;
-          margin-right: 60vw; } }
+          margin-right: 65vw; } }
       @media (max-width: 1400px) {
         div.page-projects ul.image-list li.alternates {
           float: right;
-          margin-right: 60vw; } }
+          margin-right: 65vw; } }
     @media (max-width: 1700px) {
       div.page-projects ul.image-list li.diff {
         margin-left: -45vw; } }
@@ -2004,8 +2004,8 @@ div.page-projects {
     display: inline-block; }
     @media (max-width: 1700px) {
       div.page-projects img {
-        width: 50vw;
-        height: 50vh; } }
+        width: 25vw;
+        height: 25vh; } }
     @media (max-width: 1400px) {
       div.page-projects img {
         width: 50vw;

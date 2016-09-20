@@ -211,12 +211,12 @@ div.page-projects {
         
          @include breakpoint(desktop){
           float: right;
-          margin-right: 60vw;
+          margin-right: 65vw;
          }
 
         @include breakpoint(laptop){
           float: right;
-          margin-right: 60vw;
+          margin-right: 65vw;
          }
 
       }
@@ -248,8 +248,8 @@ div.page-projects {
         display: inline-block;
         
         @include breakpoint(desktop){
-          width: 50vw;
-          height: 50vh;
+          width: 25vw;
+          height: 25vh;
          }
 
         @include breakpoint(laptop){
