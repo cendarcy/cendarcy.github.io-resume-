@@ -1976,6 +1976,10 @@ ul.nav-social {
   padding: 0;
   margin-left: 190px;
   font-size: 50px; }
+  @media (max-width: 1950px) {
+    ul.nav-social {
+      font-size: 30px;
+      margin-left: 210px; } }
   @media (max-width: 1700px) {
     ul.nav-social {
       font-size: 30px;

@@ -200,10 +200,15 @@ ul.nav-social {
   margin-left: 190px;
   font-size: 50px;
 
-   @include breakpoint(desktop){
+  @include breakpoint(desktop-plus){
     font-size: 30px;
     margin-left: 210px;
-   }
+  }
+
+  @include breakpoint(desktop){
+    font-size: 30px;
+    margin-left: 210px;
+  }
 
   @include breakpoint(laptop){
     font-size: 30px;
