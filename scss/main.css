@@ -2059,8 +2059,8 @@ div.page-projects {
     display: inline-block; }
     @media (max-width: 1950px) {
       div.page-projects img {
-        width: 40vw;
-        height: 75vh; } }
+        width: 50vw;
+        height: 50vh; } }
     @media (max-width: 1700px) {
       div.page-projects img {
         width: 50vw;
@@ -2081,7 +2081,8 @@ div.page-projects {
         float: left;
         padding-top: 25vh;
         width: 35vw;
-        height: 50vh; } }
+        height: 50vh;
+        font-size: 35px; } }
     @media (max-width: 1700px) {
       div.page-projects div.box-text {
         font-size: 20px;
