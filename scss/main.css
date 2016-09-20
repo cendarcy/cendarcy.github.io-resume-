@@ -1902,7 +1902,7 @@ div.page-about .blue-block {
           clear: none;
           padding-left: 12vw;
           font-size: 30px;
-          width: 70vw; } }
+          width: 50vw; } }
       @media (max-width: 1400px) {
         div.page-about .blue-block .intro p {
           font-size: 30px;
