@@ -1827,7 +1827,7 @@ nav {
       @media (max-width: 1700px) {
         nav ul li {
           font-size: 30px;
-          padding-top: 5px; } }
+          padding-top: 18px; } }
       @media (max-width: 1400px) {
         nav ul li {
           font-size: 30px;
@@ -1866,7 +1866,7 @@ div.page-about .blue-block {
   padding: 0; }
   @media (max-width: 1700px) {
     div.page-about .blue-block {
-      height: 161vh; } }
+      height: 120vh; } }
   @media (max-width: 1400px) {
     div.page-about .blue-block {
       height: 161vh; } }
@@ -2078,7 +2078,7 @@ div.resume {
   width: 120vw; }
   @media (max-width: 1700px) {
     div.resume {
-      width: 100vw;
+      width: 82vw;
       border-right: 20em solid rgba(30, 128, 126, 0.7); } }
   @media (max-width: 1400px) {
     div.resume {

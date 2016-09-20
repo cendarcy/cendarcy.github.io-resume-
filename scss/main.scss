@@ -51,7 +51,7 @@ div.page-about{
     padding: 0;
     
      @include breakpoint(desktop){
-      height: 161vh;
+      height: 120vh;
     }
 
     @include breakpoint(laptop){
@@ -345,7 +345,7 @@ div.resume {
   width: 120vw;
 
    @include breakpoint(desktop){
-    width: 100vw;
+    width: 82vw;
     border-right: 20em solid $teal;
    }
 
