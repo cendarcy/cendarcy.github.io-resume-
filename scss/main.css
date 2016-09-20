@@ -1866,13 +1866,20 @@ div.page-about .blue-block {
   padding: 0; }
   @media (max-width: 1950px) {
     div.page-about .blue-block {
-      height: 90vh; } }
+      height: 95vh; } }
   @media (max-width: 1700px) {
     div.page-about .blue-block {
       height: 120vh; } }
   @media (max-width: 1400px) {
     div.page-about .blue-block {
       height: 161vh; } }
+  @media (max-width: 800px) {
+    div.page-about .blue-block {
+      height: 161vh; } }
+  @media (max-width: 800px) {
+    div.page-about .blue-block {
+      width: 10vw;
+      height: 200vh; } }
   div.page-about .blue-block .intro {
     display: inline-block;
     border-radius: 5px;
@@ -1889,7 +1896,7 @@ div.page-about .blue-block {
       @media (max-width: 1950px) {
         div.page-about .blue-block .intro #headshot {
           float: right;
-          margin-top: 15px;
+          margin-top: -90px;
           margin-right: -40vw; } }
       @media (max-width: 1700px) {
         div.page-about .blue-block .intro #headshot {
@@ -1899,6 +1906,18 @@ div.page-about .blue-block {
       @media (max-width: 1400px) {
         div.page-about .blue-block .intro #headshot {
           margin-right: -25vw; } }
+      @media (max-width: 800px) {
+        div.page-about .blue-block .intro #headshot {
+          float: none;
+          margin-top: -160px;
+          margin-right: 8vw;
+          margin-bottom: 20px; } }
+      @media (max-width: 800px) {
+        div.page-about .blue-block .intro #headshot {
+          float: none;
+          margin-top: -160px;
+          margin-right: 8vw;
+          margin-bottom: 20px; } }
     div.page-about .blue-block .intro p {
       clear: both;
       display: block;
@@ -1924,6 +1943,22 @@ div.page-about .blue-block {
         div.page-about .blue-block .intro p {
           font-size: 30px;
           padding-left: 12vw; } }
+      @media (max-width: 800px) {
+        div.page-about .blue-block .intro p {
+          float: none;
+          margin-top: -160px;
+          margin-right: 8vw;
+          margin-bottom: 20px; } }
+      @media (max-width: 800px) {
+        div.page-about .blue-block .intro p {
+          clear: both;
+          display: block;
+          padding-left: 18vw;
+          padding-top: 10px;
+          margin: 16px;
+          padding-right: 100px;
+          width: 900px;
+          font-size: 60px; } }
       div.page-about .blue-block .intro p#first {
         padding-top: 10px; }
         @media (max-width: 1700px) {
