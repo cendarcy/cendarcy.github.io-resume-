@@ -1864,7 +1864,7 @@ div.page-about .blue-block {
   background-color: rgba(30, 128, 126, 0.7);
   border-right: 1em solid #d13135;
   padding: 0; }
-  @media (max-width: 1900px) {
+  @media (max-width: 1950px) {
     div.page-about .blue-block {
       height: 90vh; } }
   @media (max-width: 1700px) {

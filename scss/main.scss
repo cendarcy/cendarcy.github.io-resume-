@@ -1,6 +1,6 @@
 @mixin breakpoint($point){
   @if $point == desktop-plus{
-    @media (max-width: 1900px){ @content; }
+    @media (max-width: 1950px){ @content; }
   }
   @else if $point == desktop {
     @media (max-width: 1700px){ @content; }
