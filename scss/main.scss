@@ -331,6 +331,7 @@ div.page-projects {
         display: inline-block;
 
         @include breakpoint(desktop-plus){
+          margin-left: -8vw;
           width: 50vw;
           height: 50vh;
         }

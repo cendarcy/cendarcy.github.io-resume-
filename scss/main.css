@@ -2067,6 +2067,7 @@ div.page-projects {
     display: inline-block; }
     @media (max-width: 1950px) {
       div.page-projects img {
+        margin-left: -8vw;
         width: 50vw;
         height: 50vh; } }
     @media (max-width: 1700px) {
