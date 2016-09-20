@@ -2122,7 +2122,7 @@ div.page-projects {
     @media (max-width: 1950px) {
       div.page-projects div.box-text-2 {
         float: left;
-        padding-top: 25vh;
+        margin-top: -65vh;
         width: 30vw;
         height: 40vh;
         font-size: 35px;
