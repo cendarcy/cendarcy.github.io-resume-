@@ -270,6 +270,7 @@ div.page-projects {
         margin-left: 30px;
         padding-left: 10vw;
         padding-top: 20vh;
+        margin-bottom: 20px;
 
         @include breakpoint(desktop){
           padding-left: 5vw;
@@ -462,6 +463,10 @@ div.resume {
   border-bottom: 3em solid $teal;
   width: 120vw;
 
+  @include breakpoint(desktop-plus){
+    width: 86vw;
+  }
+
    @include breakpoint(desktop){
     width: 82vw;
     border-right: 20em solid $teal;
@@ -558,6 +563,12 @@ div.education {
     font-size: 50px;
     margin-left: 50px;
 
+    @include breakpoint(desktop-plus){
+      font-size: 25px;
+      margin-left: 10vw;
+      width: 80vw;
+    }
+
     @include breakpoint(desktop){
       font-size: 25px;
       margin-left: 10vw;
@@ -580,6 +591,12 @@ div.education {
         border-bottom: white;
         color: $yellow;
         
+        @include breakpoint(desktop-plus){
+         font-size: 30px;
+          margin-left: 10vw;
+          width: 80vw;
+        }
+
         @include breakpoint(desktop){
           font-size: 30px;
           margin-left: 10vw;

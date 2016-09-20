@@ -2025,7 +2025,8 @@ div.page-projects {
       float: left;
       margin-left: 30px;
       padding-left: 10vw;
-      padding-top: 20vh; }
+      padding-top: 20vh;
+      margin-bottom: 20px; }
       @media (max-width: 1700px) {
         div.page-projects ul.image-list li {
           padding-left: 5vw; } }
@@ -2164,6 +2165,9 @@ div.resume {
   border-right: 19.5em solid rgba(30, 128, 126, 0.7);
   border-bottom: 3em solid rgba(30, 128, 126, 0.7);
   width: 120vw; }
+  @media (max-width: 1950px) {
+    div.resume {
+      width: 86vw; } }
   @media (max-width: 1700px) {
     div.resume {
       width: 82vw;
@@ -2226,6 +2230,11 @@ div.education {
     height: 20vh;
     font-size: 50px;
     margin-left: 50px; }
+    @media (max-width: 1950px) {
+      .footer .page-contact p {
+        font-size: 25px;
+        margin-left: 10vw;
+        width: 80vw; } }
     @media (max-width: 1700px) {
       .footer .page-contact p {
         font-size: 25px;
@@ -2243,6 +2252,11 @@ div.education {
     width: 100vw;
     border-bottom: white;
     color: #ff8c02; }
+    @media (max-width: 1950px) {
+      .footer .page-contact ul.nav-social {
+        font-size: 30px;
+        margin-left: 10vw;
+        width: 80vw; } }
     @media (max-width: 1700px) {
       .footer .page-contact ul.nav-social {
         font-size: 30px;
