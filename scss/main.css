@@ -1866,7 +1866,7 @@ div.page-about .blue-block {
   padding: 0; }
   @media (max-width: 1950px) {
     div.page-about .blue-block {
-      height: 95vh; } }
+      height: 92vh; } }
   @media (max-width: 1700px) {
     div.page-about .blue-block {
       height: 120vh; } }
@@ -1896,7 +1896,7 @@ div.page-about .blue-block {
       @media (max-width: 1950px) {
         div.page-about .blue-block .intro #headshot {
           float: right;
-          margin-top: -90px;
+          margin-top: -75px;
           margin-right: -40vw; } }
       @media (max-width: 1700px) {
         div.page-about .blue-block .intro #headshot {
@@ -1961,6 +1961,9 @@ div.page-about .blue-block {
           font-size: 60px; } }
       div.page-about .blue-block .intro p#first {
         padding-top: 10px; }
+        @media (max-width: 1950px) {
+          div.page-about .blue-block .intro p#first {
+            margin-top: -10vh; } }
         @media (max-width: 1700px) {
           div.page-about .blue-block .intro p#first {
             margin-top: -100px;

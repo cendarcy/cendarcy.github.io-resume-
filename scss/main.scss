@@ -57,7 +57,7 @@ div.page-about{
     padding: 0;
 
     @include breakpoint(desktop-plus){
-      height: 95vh;
+      height: 92vh;
     }
     
     @include breakpoint(desktop){
@@ -94,7 +94,7 @@ div.page-about{
 
         @include breakpoint(desktop-plus){
           float: right;
-          margin-top: -90px;
+          margin-top: -75px;
           margin-right: -40vw;
         }
 
@@ -174,10 +174,15 @@ div.page-about{
           &#first {
             padding-top: 10px;
 
+            @include breakpoint(desktop-plus){
+              margin-top: -10vh;
+            }
+
             @include breakpoint(desktop){
               margin-top: -100px;
               padding-top: 0px;
             }
+
           }
 
           
