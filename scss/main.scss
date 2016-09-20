@@ -309,7 +309,7 @@ div.page-projects {
       li.diff{
         
         @include breakpoint(desktop-plus){
-          margin-left: 0.5vw;
+          margin-left: 0;
         }
 
         @include breakpoint(desktop){

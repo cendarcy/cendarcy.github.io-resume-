@@ -2053,7 +2053,7 @@ div.page-projects {
           margin-right: 65vw; } }
     @media (max-width: 1950px) {
       div.page-projects ul.image-list li.diff {
-        margin-left: 0.5vw; } }
+        margin-left: 0; } }
     @media (max-width: 1700px) {
       div.page-projects ul.image-list li.diff {
         margin-left: -45vw; } }
