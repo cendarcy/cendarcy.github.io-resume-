@@ -1883,6 +1883,11 @@ div.page-about .blue-block {
       margin-top: -160px;
       margin-right: 8vw;
       margin-bottom: 20px; }
+      @media (max-width: 1700px) {
+        div.page-about .blue-block .intro #headshot {
+          float: right;
+          margin-top: 15px;
+          margin-right: -40vw; } }
     div.page-about .blue-block .intro p {
       clear: both;
       display: block;
@@ -1894,14 +1899,20 @@ div.page-about .blue-block {
       font-size: 60px; }
       @media (max-width: 1700px) {
         div.page-about .blue-block .intro p {
+          clear: none;
           padding-left: 12vw;
-          font-size: 30px; } }
+          font-size: 30px;
+          width: 70vw; } }
       @media (max-width: 1400px) {
         div.page-about .blue-block .intro p {
           font-size: 30px;
           padding-left: 12vw; } }
       div.page-about .blue-block .intro p#first {
         padding-top: 10px; }
+        @media (max-width: 1700px) {
+          div.page-about .blue-block .intro p#first {
+            margin-top: -100px;
+            padding-top: 0px; } }
 
 ul.nav-social {
   background-color: transparent;
@@ -2129,12 +2140,12 @@ div.education {
     margin-left: 50px; }
     @media (max-width: 1700px) {
       .footer .page-contact p {
-        font-size: 30px;
+        font-size: 25px;
         margin-left: 10vw;
         width: 80vw; } }
     @media (max-width: 1400px) {
       .footer .page-contact p {
-        font-size: 30px;
+        font-size: 25px;
         margin-left: 10vw;
         width: 80vw; } }
   .footer .page-contact ul.nav-social {

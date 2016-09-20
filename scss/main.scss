@@ -72,6 +72,12 @@ div.page-about{
         margin-top: -160px;    
         margin-right: 8vw;
         margin-bottom: 20px;
+
+        @include breakpoint(desktop){
+          float: right;
+          margin-top: 15px;
+          margin-right: -40vw;
+         }
       } 
 
         p {
@@ -85,9 +91,10 @@ div.page-about{
           font-size: 60px;
           
           @include breakpoint(desktop){
+            clear: none;
             padding-left: 12vw;
             font-size: 30px;
-
+            width: 70vw;
            }
 
           @include breakpoint(laptop){
@@ -97,6 +104,11 @@ div.page-about{
 
           &#first {
             padding-top: 10px;
+
+            @include breakpoint(desktop){
+              margin-top: -100px;
+              padding-top: 0px;
+            }
           }
 
           
@@ -429,13 +441,13 @@ div.education {
     margin-left: 50px;
 
     @include breakpoint(desktop){
-      font-size: 30px;
+      font-size: 25px;
       margin-left: 10vw;
       width: 80vw;
     }
 
     @include breakpoint(laptop){
-      font-size: 30px; 
+      font-size: 25px; 
       margin-left: 10vw;
       width: 80vw;
     }
