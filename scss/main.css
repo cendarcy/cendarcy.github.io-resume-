@@ -2080,9 +2080,10 @@ div.page-projects {
       div.page-projects div.box-text {
         float: left;
         padding-top: 25vh;
-        width: 35vw;
-        height: 50vh;
-        font-size: 35px; } }
+        width: 30vw;
+        height: 40vh;
+        font-size: 35px;
+        margin-left: 90px; } }
     @media (max-width: 1700px) {
       div.page-projects div.box-text {
         font-size: 20px;

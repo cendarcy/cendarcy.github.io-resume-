@@ -348,9 +348,10 @@ div.page-projects {
         @include breakpoint(desktop-plus){
           float: left;
           padding-top: 25vh;
-          width: 35vw;
-          height: 50vh;
+          width: 30vw;
+          height: 40vh;
           font-size: 35px;
+          margin-left: 90px;
         }
 
 
