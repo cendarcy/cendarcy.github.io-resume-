@@ -565,7 +565,7 @@ div.education {
 
     @include breakpoint(desktop-plus){
       font-size: 25px;
-      margin-left: 10vw;
+      margin-left: 5vw;
       width: 80vw;
     }
 
@@ -592,8 +592,8 @@ div.education {
         color: $yellow;
         
         @include breakpoint(desktop-plus){
-         font-size: 30px;
-          margin-left: 10vw;
+          font-size: 30px;
+          margin-left: 5vw;
           width: 80vw;
         }
 

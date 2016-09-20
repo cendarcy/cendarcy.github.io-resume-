@@ -2233,7 +2233,7 @@ div.education {
     @media (max-width: 1950px) {
       .footer .page-contact p {
         font-size: 25px;
-        margin-left: 10vw;
+        margin-left: 5vw;
         width: 80vw; } }
     @media (max-width: 1700px) {
       .footer .page-contact p {
@@ -2255,7 +2255,7 @@ div.education {
     @media (max-width: 1950px) {
       .footer .page-contact ul.nav-social {
         font-size: 30px;
-        margin-left: 10vw;
+        margin-left: 5vw;
         width: 80vw; } }
     @media (max-width: 1700px) {
       .footer .page-contact ul.nav-social {
