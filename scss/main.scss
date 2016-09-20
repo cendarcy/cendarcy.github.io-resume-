@@ -282,6 +282,11 @@ div.page-projects {
 
       li.alternates{
         float: none;
+
+        @include breakpoint(desktop-plus){
+          float: right;
+          margin-right: 65vw;
+        }
         
          @include breakpoint(desktop){
           float: right;

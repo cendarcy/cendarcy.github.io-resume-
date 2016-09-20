@@ -2034,6 +2034,10 @@ div.page-projects {
           padding-left: 5vw; } }
     div.page-projects ul.image-list li.alternates {
       float: none; }
+      @media (max-width: 1950px) {
+        div.page-projects ul.image-list li.alternates {
+          float: right;
+          margin-right: 65vw; } }
       @media (max-width: 1700px) {
         div.page-projects ul.image-list li.alternates {
           float: right;
