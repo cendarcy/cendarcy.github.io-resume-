@@ -248,8 +248,8 @@ div.page-projects {
         display: inline-block;
         
         @include breakpoint(desktop){
-          width: 25vw;
-          height: 25vh;
+          width: 50vw;
+          height: 50vh;
          }
 
         @include breakpoint(laptop){

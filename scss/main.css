@@ -2004,8 +2004,8 @@ div.page-projects {
     display: inline-block; }
     @media (max-width: 1700px) {
       div.page-projects img {
-        width: 25vw;
-        height: 25vh; } }
+        width: 50vw;
+        height: 50vh; } }
     @media (max-width: 1400px) {
       div.page-projects img {
         width: 50vw;
