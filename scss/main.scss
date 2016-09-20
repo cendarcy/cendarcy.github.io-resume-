@@ -83,6 +83,12 @@ div.page-about{
         margin-right: 8vw;
         margin-bottom: 20px;
 
+        @include breakpoint(desktop-plus){
+          float: right;
+          margin-top: 15px;
+          margin-right: -40vw;
+        }
+
         @include breakpoint(desktop){
           float: right;
           margin-top: 15px;
@@ -103,6 +109,13 @@ div.page-about{
           padding-right: 100px;
           width: 900px;
           font-size: 60px;
+
+          @include breakpoint(desktop-plus){
+            clear: none;
+            padding-left: 12vw;
+            font-size: 30px;
+            width: 50vw;
+          }
           
           @include breakpoint(desktop){
             clear: none;
