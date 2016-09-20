@@ -11,18 +11,6 @@ nav {
 	font-size: 30px;
 	/*display: none;*/
 
-	@include breakpoint(medium){
-		width: 100vw;
-		/*font-size: 24px;*/
-		display: inline;
-	}
-
-	@include breakpoint(large){
-		/*width: 100vw;
-		font-size: 24px;*/
-		displaY: inline;
-	}
-
 	ul {
 		margin-top: 30px;
 		list-style: none;
@@ -34,7 +22,17 @@ nav {
 			display: block;
 	    float: left;
 	    margin: 0;
-	    padding: 0; 
+	    padding: 0;
+
+	     @include breakpoint(desktop){
+		    font-size: 30px;
+		    padding-top: 5px;
+		   }
+
+		  @include breakpoint(laptop){
+		    font-size: 30px;
+		    padding-top: 5px;
+		   } 
 
 			a {
 				/*display: none;*/
