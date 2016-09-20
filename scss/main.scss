@@ -221,6 +221,18 @@ div.page-projects {
 
       }
 
+      li.diff{
+
+
+        @include breakpoint(desktop){
+          margin-left: -45vw;
+         }
+
+        @include breakpoint(laptop){
+          margin-left: -45vw;
+         }
+      }
+
       a{
         text-decoration: none;
         color: $red;
