@@ -1913,11 +1913,11 @@ ul.nav-social {
   @media (max-width: 1700px) {
     ul.nav-social {
       font-size: 30px;
-      margin-left: 20px; } }
+      margin-left: 210px; } }
   @media (max-width: 1400px) {
     ul.nav-social {
       font-size: 30px;
-      padding-left: 12vw; } }
+      margin-left: 13vw; } }
   ul.nav-social li {
     list-style: none;
     list-style: none;
@@ -1960,9 +1960,22 @@ div.page-projects {
       margin-left: 30px;
       padding-left: 10vw;
       padding-top: 20vh; }
+      @media (max-width: 1700px) {
+        div.page-projects ul.image-list li {
+          padding-left: 5vw; } }
+      @media (max-width: 1400px) {
+        div.page-projects ul.image-list li {
+          padding-left: 5vw; } }
     div.page-projects ul.image-list li.alternates {
-      /*  float: right;*/
-      /*padding-right: 80px;*/ }
+      float: none; }
+      @media (max-width: 1700px) {
+        div.page-projects ul.image-list li.alternates {
+          float: right;
+          margin-right: 60vw; } }
+      @media (max-width: 1400px) {
+        div.page-projects ul.image-list li.alternates {
+          float: right;
+          margin-right: 60vw; } }
     div.page-projects ul.image-list a {
       text-decoration: none;
       color: #d13135; }
@@ -1989,10 +2002,18 @@ div.page-projects {
     font-size: 50px; }
     @media (max-width: 1700px) {
       div.page-projects div.box-text {
-        font-size: 20px; } }
+        font-size: 20px;
+        width: 35vw;
+        float: left;
+        margin-left: 20px;
+        margin-top: 12vh; } }
     @media (max-width: 1400px) {
       div.page-projects div.box-text {
-        font-size: 20px; } }
+        font-size: 20px;
+        width: 35vw;
+        float: left;
+        margin-left: 20px;
+        margin-top: 12vh; } }
     div.page-projects div.box-text h2 {
       font-family: "Josefin Sans", sans-serif;
       font-weight: 400;
@@ -2010,6 +2031,20 @@ div.page-projects {
     width: 100vw;
     height: 50vh;
     font-size: 50px; }
+    @media (max-width: 1700px) {
+      div.page-projects div.box-text-2 {
+        font-size: 20px;
+        float: left;
+        margin-top: -61vh;
+        margin-left: 7vw;
+        width: 35vw; } }
+    @media (max-width: 1400px) {
+      div.page-projects div.box-text-2 {
+        font-size: 20px;
+        float: left;
+        margin-top: -61vh;
+        margin-left: 7vw;
+        width: 35vw; } }
     div.page-projects div.box-text-2 h2 {
       font-family: "Josefin Sans", sans-serif;
       font-weight: 400;
@@ -2030,6 +2065,14 @@ div.resume {
   border-right: 19.5em solid rgba(30, 128, 126, 0.7);
   border-bottom: 3em solid rgba(30, 128, 126, 0.7);
   width: 120vw; }
+  @media (max-width: 1700px) {
+    div.resume {
+      width: 100vw;
+      border-right: 20em solid rgba(30, 128, 126, 0.7); } }
+  @media (max-width: 1400px) {
+    div.resume {
+      width: 80vw;
+      border-left: 8em solid rgba(30, 128, 126, 0.7); } }
   div.resume > #resume-inside {
     margin: 100px; }
     div.resume > #resume-inside > span > h1 {
@@ -2043,6 +2086,12 @@ div.resume {
       padding-right: 20px;
       margin: 10px 0px;
       line-height: 3em; }
+      @media (max-width: 1700px) {
+        div.resume > #resume-inside > span > h1 {
+          font-size: 60px; } }
+      @media (max-width: 1400px) {
+        div.resume > #resume-inside > span > h1 {
+          font-size: 60px; } }
     div.resume > #resume-inside > span > ul li {
       font-size: 40px; }
     div.resume > #resume-inside > span > p {
@@ -2054,6 +2103,12 @@ div.resume {
       padding-left: 0px;
       font-family: "Josefin Sans", sans-serif;
       font-weight: 400; }
+      @media (max-width: 1700px) {
+        div.resume > #resume-inside > span > h2 {
+          font-size: 30px; } }
+      @media (max-width: 1400px) {
+        div.resume > #resume-inside > span > h2 {
+          font-size: 30px; } }
       div.resume > #resume-inside > span > h2 a {
         margin-left: 20px; }
       div.resume > #resume-inside > span > h2#email {
@@ -2072,6 +2127,16 @@ div.education {
     height: 20vh;
     font-size: 50px;
     margin-left: 50px; }
+    @media (max-width: 1700px) {
+      .footer .page-contact p {
+        font-size: 30px;
+        margin-left: 10vw;
+        width: 80vw; } }
+    @media (max-width: 1400px) {
+      .footer .page-contact p {
+        font-size: 30px;
+        margin-left: 10vw;
+        width: 80vw; } }
   .footer .page-contact ul.nav-social {
     font-size: 40px;
     margin-left: 4vw;
@@ -2079,5 +2144,15 @@ div.education {
     width: 100vw;
     border-bottom: white;
     color: #ff8c02; }
+    @media (max-width: 1700px) {
+      .footer .page-contact ul.nav-social {
+        font-size: 30px;
+        margin-left: 10vw;
+        width: 80vw; } }
+    @media (max-width: 1400px) {
+      .footer .page-contact ul.nav-social {
+        font-size: 30px;
+        margin-left: 10vw;
+        width: 80vw; } }
 
 /*# sourceMappingURL=main.css.map */

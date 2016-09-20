@@ -116,12 +116,12 @@ ul.nav-social {
 
    @include breakpoint(desktop){
     font-size: 30px;
-    margin-left: 20px;
+    margin-left: 210px;
    }
 
   @include breakpoint(laptop){
     font-size: 30px;
-    padding-left: 12vw;
+    margin-left: 13vw;
    }
 
   li {
@@ -184,11 +184,29 @@ div.page-projects {
         margin-left: 30px;
         padding-left: 10vw;
         padding-top: 20vh;
+
+        @include breakpoint(desktop){
+          padding-left: 5vw;
+         }
+
+        @include breakpoint(laptop){
+          padding-left: 5vw;
+         }
       }
 
       li.alternates{
-      /*  float: right;*/
-        /*padding-right: 80px;*/
+        float: none;
+        
+         @include breakpoint(desktop){
+          float: right;
+          margin-right: 60vw;
+         }
+
+        @include breakpoint(laptop){
+          float: right;
+          margin-right: 60vw;
+         }
+
       }
 
       a{
@@ -226,10 +244,18 @@ div.page-projects {
 
          @include breakpoint(desktop){
           font-size: 20px;
+          width: 35vw;
+          float: left;
+          margin-left: 20px;
+          margin-top: 12vh;
          }
 
         @include breakpoint(laptop){
           font-size: 20px;
+          width: 35vw;
+          float: left;
+          margin-left: 20px;
+          margin-top: 12vh;  
          }
           h2{
             font-family: $josefin;
@@ -253,6 +279,22 @@ div.page-projects {
         width: 100vw;
         height: 50vh;
         font-size: 50px;
+
+        @include breakpoint(desktop){
+          font-size: 20px;
+          float: left;
+          margin-top: -61vh;
+          margin-left: 7vw;
+          width: 35vw;
+         }
+
+        @include breakpoint(laptop){
+          font-size: 20px;
+          float: left;
+          margin-top: -61vh;
+          margin-left: 7vw;
+          width: 35vw;
+         }
         
         h2{
             font-family: $josefin;
@@ -289,6 +331,16 @@ div.resume {
   border-right: 19.5em solid $teal;
   border-bottom: 3em solid $teal;
   width: 120vw;
+
+   @include breakpoint(desktop){
+    width: 100vw;
+    border-right: 20em solid $teal;
+   }
+
+  @include breakpoint(laptop){
+    width: 80vw; 
+    border-left: 8em solid $teal; 
+   }
   > #resume-inside {
     margin: 100px;
 
@@ -306,6 +358,13 @@ div.resume {
         padding-right: 20px;
         margin: 10px 0px;
         line-height: 3em;
+        @include breakpoint(desktop){
+          font-size: 60px;
+         }
+
+        @include breakpoint(laptop){
+          font-size: 60px; 
+         }
       }
 
       > ul li {
@@ -322,6 +381,14 @@ div.resume {
         font-family: $josefin;
         font-weight: 400;
           
+        @include breakpoint(desktop){
+          font-size: 30px;
+         }
+
+        @include breakpoint(laptop){
+          font-size: 30px;
+         }
+
         a {
           margin-left: 20px;
 
@@ -361,6 +428,18 @@ div.education {
     font-size: 50px;
     margin-left: 50px;
 
+    @include breakpoint(desktop){
+      font-size: 30px;
+      margin-left: 10vw;
+      width: 80vw;
+    }
+
+    @include breakpoint(laptop){
+      font-size: 30px; 
+      margin-left: 10vw;
+      width: 80vw;
+    }
+
   }
         
       ul.nav-social {
@@ -370,7 +449,18 @@ div.education {
         width: 100vw; 
         border-bottom: white;
         color: $yellow;
+        
+        @include breakpoint(desktop){
+          font-size: 30px;
+          margin-left: 10vw;
+          width: 80vw;
+        }
 
+        @include breakpoint(laptop){
+          font-size: 30px; 
+          margin-left: 10vw;
+          width: 80vw;
+        }
         }
   }
 }
