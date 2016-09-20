@@ -320,6 +320,11 @@ div.page-projects {
         height: 35vh;
         width: 100vw;
         display: inline-block;
+
+        @include breakpoint(desktop-plus){
+          width: 40vw;
+          height: 75vh;
+        }
         
         @include breakpoint(desktop){
           width: 50vw;
@@ -339,6 +344,14 @@ div.page-projects {
         width: 100vw;
         height: 50vh;
         font-size: 50px;
+        
+        @include breakpoint(desktop-plus){
+          float: left;
+          padding-top: 25vh;
+          width: 35vw;
+          height: 50vh;
+        }
+
 
          @include breakpoint(desktop){
           font-size: 20px;

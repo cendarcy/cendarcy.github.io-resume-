@@ -2057,6 +2057,10 @@ div.page-projects {
     height: 35vh;
     width: 100vw;
     display: inline-block; }
+    @media (max-width: 1950px) {
+      div.page-projects img {
+        width: 40vw;
+        height: 75vh; } }
     @media (max-width: 1700px) {
       div.page-projects img {
         width: 50vw;
@@ -2072,6 +2076,12 @@ div.page-projects {
     width: 100vw;
     height: 50vh;
     font-size: 50px; }
+    @media (max-width: 1950px) {
+      div.page-projects div.box-text {
+        float: left;
+        padding-top: 25vh;
+        width: 35vw;
+        height: 50vh; } }
     @media (max-width: 1700px) {
       div.page-projects div.box-text {
         font-size: 20px;
