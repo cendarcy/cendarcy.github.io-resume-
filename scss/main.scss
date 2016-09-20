@@ -1,5 +1,5 @@
 @mixin breakpoint($point){
-  @if $point == desktopPlus{
+  @if $point == desktop-plus{
     @media (max-width: 1950px){ @content; }
   }
   @else if $point == desktop {
@@ -56,7 +56,7 @@ div.page-about{
     border-right: 1em solid $red;
     padding: 0;
 
-    @include breakpoint(desktopPlus){
+    @include breakpoint(desktop-plus){
       height: 90vh;
     }
     
@@ -83,7 +83,7 @@ div.page-about{
         margin-right: 8vw;
         margin-bottom: 20px;
 
-        @include breakpoint(desktopPlus){
+        @include breakpoint(desktop-plus){
           float: right;
           margin-top: 15px;
           margin-right: -40vw;
@@ -110,7 +110,7 @@ div.page-about{
           width: 900px;
           font-size: 60px;
 
-          @include breakpoint(desktopPlus){
+          @include breakpoint(desktop-plus){
             clear: none;
             padding-left: 12vw;
             font-size: 30px;
