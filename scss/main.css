@@ -1864,7 +1864,7 @@ div.page-about .blue-block {
   background-color: rgba(30, 128, 126, 0.7);
   border-right: 1em solid #d13135;
   padding: 0; }
-  @media (max-width: 1950px) {
+  @media (min-width: 1950px) {
     div.page-about .blue-block {
       height: 92vh; } }
   @media (max-width: 1700px) {
@@ -1872,11 +1872,11 @@ div.page-about .blue-block {
       height: 120vh; } }
   @media (max-width: 1400px) {
     div.page-about .blue-block {
-      height: 161vh; } }
+      height: 160vh; } }
   @media (max-width: 800px) {
     div.page-about .blue-block {
       height: 161vh; } }
-  @media (max-width: 800px) {
+  @media (max-width: 400px) {
     div.page-about .blue-block {
       width: 10vw;
       height: 200vh; } }
@@ -1893,7 +1893,7 @@ div.page-about .blue-block {
       margin-top: -160px;
       margin-right: 8vw;
       margin-bottom: 20px; }
-      @media (max-width: 1950px) {
+      @media (min-width: 1950px) {
         div.page-about .blue-block .intro #headshot {
           float: right;
           margin-top: -75px;
@@ -1912,7 +1912,7 @@ div.page-about .blue-block {
           margin-top: -160px;
           margin-right: 8vw;
           margin-bottom: 20px; } }
-      @media (max-width: 800px) {
+      @media (max-width: 400px) {
         div.page-about .blue-block .intro #headshot {
           float: none;
           margin-top: -160px;
@@ -1927,7 +1927,7 @@ div.page-about .blue-block {
       padding-right: 100px;
       width: 900px;
       font-size: 60px; }
-      @media (max-width: 1950px) {
+      @media (min-width: 1950px) {
         div.page-about .blue-block .intro p {
           clear: none;
           padding-left: 12vw;
@@ -1949,7 +1949,7 @@ div.page-about .blue-block {
           margin-top: -160px;
           margin-right: 8vw;
           margin-bottom: 20px; } }
-      @media (max-width: 800px) {
+      @media (max-width: 400px) {
         div.page-about .blue-block .intro p {
           clear: both;
           display: block;
@@ -1961,7 +1961,7 @@ div.page-about .blue-block {
           font-size: 60px; } }
       div.page-about .blue-block .intro p#first {
         padding-top: 10px; }
-        @media (max-width: 1950px) {
+        @media (min-width: 1950px) {
           div.page-about .blue-block .intro p#first {
             margin-top: -10vh; } }
         @media (max-width: 1700px) {
@@ -1976,7 +1976,7 @@ ul.nav-social {
   padding: 0;
   margin-left: 190px;
   font-size: 50px; }
-  @media (max-width: 1950px) {
+  @media (min-width: 1950px) {
     ul.nav-social {
       font-size: 30px;
       margin-left: 240px; } }
@@ -2034,12 +2034,9 @@ div.page-projects {
       @media (max-width: 1700px) {
         div.page-projects ul.image-list li {
           padding-left: 5vw; } }
-      @media (max-width: 1400px) {
-        div.page-projects ul.image-list li {
-          padding-left: 5vw; } }
     div.page-projects ul.image-list li.alternates {
       float: none; }
-      @media (max-width: 1950px) {
+      @media (min-width: 1950px) {
         div.page-projects ul.image-list li.alternates {
           float: right;
           margin-right: 65vw; } }
@@ -2051,7 +2048,7 @@ div.page-projects {
         div.page-projects ul.image-list li.alternates {
           float: right;
           margin-right: 65vw; } }
-    @media (max-width: 1950px) {
+    @media (min-width: 1950px) {
       div.page-projects ul.image-list li.diff {
         margin-left: 0; } }
     @media (max-width: 1700px) {
@@ -2069,7 +2066,7 @@ div.page-projects {
     height: 35vh;
     width: 100vw;
     display: inline-block; }
-    @media (max-width: 1950px) {
+    @media (min-width: 1950px) {
       div.page-projects img {
         margin-left: -8vw;
         width: 50vw;
@@ -2077,7 +2074,8 @@ div.page-projects {
     @media (max-width: 1700px) {
       div.page-projects img {
         width: 50vw;
-        height: 50vh; } }
+        height: 50vh;
+        margin-left: 0; } }
     @media (max-width: 1400px) {
       div.page-projects img {
         width: 50vw;
@@ -2089,7 +2087,7 @@ div.page-projects {
     width: 100vw;
     height: 50vh;
     font-size: 50px; }
-    @media (max-width: 1950px) {
+    @media (min-width: 1950px) {
       div.page-projects div.box-text {
         float: left;
         padding-top: 25vh;
@@ -2128,7 +2126,7 @@ div.page-projects {
     width: 100vw;
     height: 50vh;
     font-size: 50px; }
-    @media (max-width: 1950px) {
+    @media (min-width: 1950px) {
       div.page-projects div.box-text-2 {
         float: left;
         margin-top: 3vh;
@@ -2148,7 +2146,8 @@ div.page-projects {
         font-size: 20px;
         float: left;
         margin-top: -61vh;
-        margin-left: 7vw;
+        margin-left: 6vw;
+        padding-right: 10px;
         width: 35vw; } }
     div.page-projects div.box-text-2 h2 {
       font-family: "Josefin Sans", sans-serif;
@@ -2170,7 +2169,7 @@ div.resume {
   border-right: 19.5em solid rgba(30, 128, 126, 0.7);
   border-bottom: 3em solid rgba(30, 128, 126, 0.7);
   width: 120vw; }
-  @media (max-width: 1950px) {
+  @media (min-width: 1950px) {
     div.resume {
       width: 86vw; } }
   @media (max-width: 1700px) {
@@ -2235,7 +2234,7 @@ div.education {
     height: 20vh;
     font-size: 50px;
     margin-left: 50px; }
-    @media (max-width: 1950px) {
+    @media (min-width: 1950px) {
       .footer .page-contact p {
         font-size: 25px;
         margin-left: 6.5vw;
@@ -2257,7 +2256,7 @@ div.education {
     width: 100vw;
     border-bottom: white;
     color: #ff8c02; }
-    @media (max-width: 1950px) {
+    @media (min-width: 1950px) {
       .footer .page-contact ul.nav-social {
         font-size: 30px;
         margin-left: 6.5vw;

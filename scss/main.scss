@@ -1,6 +1,6 @@
 @mixin breakpoint($point){
   @if $point == desktop-plus{
-    @media (max-width: 1950px){ @content; }
+    @media (min-width: 1950px){ @content; }
   }
   @else if $point == desktop {
     @media (max-width: 1700px){ @content; }
@@ -12,12 +12,10 @@
     @media (max-width: 800px) { @content; }
   }
   @else if $point == phone {
-    @media (max-width: 800px) { @content; }
+    @media (max-width: 400px) { @content; }
   }
 }
 
-$screen: 770px;
-$desktop: 1500px;
 
 @import 'partials/vendor/bourbon/bourbon';
 @import 'partials/vendor/font-awesome/scss/font-awesome';
@@ -65,7 +63,7 @@ div.page-about{
     }
 
     @include breakpoint(laptop){
-      height: 161vh;
+      height: 160vh;
     }
 
     @include breakpoint(tablet){
@@ -185,8 +183,6 @@ div.page-about{
 
           }
 
-          
-
         } 
     }   
   }     
@@ -280,10 +276,6 @@ div.page-projects {
         @include breakpoint(desktop){
           padding-left: 5vw;
          }
-
-        @include breakpoint(laptop){
-          padding-left: 5vw;
-         }
       }
 
       li.alternates{
@@ -344,10 +336,11 @@ div.page-projects {
         @include breakpoint(desktop){
           width: 50vw;
           height: 50vh;
+          margin-left: 0;
          }
 
         @include breakpoint(laptop){
-           width: 50vw;
+          width: 50vw;
           height: 50vh;
          }
       }
@@ -429,7 +422,8 @@ div.page-projects {
           font-size: 20px;
           float: left;
           margin-top: -61vh;
-          margin-left: 7vw;
+          margin-left: 6vw;
+          padding-right: 10px;
           width: 35vw;
          }
         
