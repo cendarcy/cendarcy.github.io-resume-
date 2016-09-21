@@ -1828,7 +1828,7 @@ nav {
         nav ul li {
           font-size: 30px;
           padding-top: 18px; } }
-      @media (max-width: 1400px) {
+      @media (min-width: 1200px) {
         nav ul li {
           font-size: 30px;
           padding-top: 5px; } }
@@ -1870,13 +1870,13 @@ div.page-about .blue-block {
   @media (max-width: 1700px) {
     div.page-about .blue-block {
       height: 120vh; } }
-  @media (max-width: 1400px) {
+  @media (min-width: 1200px) {
     div.page-about .blue-block {
       height: 160vh; } }
-  @media (max-width: 800px) {
+  @media (min-width: 800px) and (max-width: 1100px) {
     div.page-about .blue-block {
-      height: 161vh; } }
-  @media (max-width: 400px) {
+      height: 110vh; } }
+  @media (min-width: 300px) and (max-width: 700px) {
     div.page-about .blue-block {
       width: 10vw;
       height: 200vh; } }
@@ -1903,16 +1903,16 @@ div.page-about .blue-block {
           float: right;
           margin-top: 15px;
           margin-right: -40vw; } }
-      @media (max-width: 1400px) {
+      @media (min-width: 1200px) {
         div.page-about .blue-block .intro #headshot {
           margin-right: -25vw; } }
-      @media (max-width: 800px) {
+      @media (min-width: 800px) and (max-width: 1100px) {
         div.page-about .blue-block .intro #headshot {
           float: none;
           margin-top: -160px;
           margin-right: 8vw;
           margin-bottom: 20px; } }
-      @media (max-width: 400px) {
+      @media (min-width: 300px) and (max-width: 700px) {
         div.page-about .blue-block .intro #headshot {
           float: none;
           margin-top: -160px;
@@ -1939,17 +1939,17 @@ div.page-about .blue-block {
           padding-left: 12vw;
           font-size: 30px;
           width: 50vw; } }
-      @media (max-width: 1400px) {
+      @media (min-width: 1200px) {
         div.page-about .blue-block .intro p {
           font-size: 30px;
           padding-left: 12vw; } }
-      @media (max-width: 800px) {
+      @media (min-width: 800px) and (max-width: 1100px) {
         div.page-about .blue-block .intro p {
           float: none;
           margin-top: -160px;
           margin-right: 8vw;
           margin-bottom: 20px; } }
-      @media (max-width: 400px) {
+      @media (min-width: 300px) and (max-width: 700px) {
         div.page-about .blue-block .intro p {
           clear: both;
           display: block;
@@ -1984,7 +1984,7 @@ ul.nav-social {
     ul.nav-social {
       font-size: 30px;
       margin-left: 210px; } }
-  @media (max-width: 1400px) {
+  @media (min-width: 1200px) {
     ul.nav-social {
       font-size: 30px;
       margin-left: 13vw; } }
@@ -2044,7 +2044,7 @@ div.page-projects {
         div.page-projects ul.image-list li.alternates {
           float: right;
           margin-right: 65vw; } }
-      @media (max-width: 1400px) {
+      @media (min-width: 1200px) {
         div.page-projects ul.image-list li.alternates {
           float: right;
           margin-right: 65vw; } }
@@ -2054,7 +2054,7 @@ div.page-projects {
     @media (max-width: 1700px) {
       div.page-projects ul.image-list li.diff {
         margin-left: -45vw; } }
-    @media (max-width: 1400px) {
+    @media (min-width: 1200px) {
       div.page-projects ul.image-list li.diff {
         margin-left: -45vw; } }
     div.page-projects ul.image-list a {
@@ -2076,7 +2076,7 @@ div.page-projects {
         width: 50vw;
         height: 50vh;
         margin-left: 0; } }
-    @media (max-width: 1400px) {
+    @media (min-width: 1200px) {
       div.page-projects img {
         width: 50vw;
         height: 50vh; } }
@@ -2102,7 +2102,7 @@ div.page-projects {
         float: left;
         margin-left: 20px;
         margin-top: 12vh; } }
-    @media (max-width: 1400px) {
+    @media (min-width: 1200px) {
       div.page-projects div.box-text {
         font-size: 20px;
         width: 35vw;
@@ -2141,7 +2141,7 @@ div.page-projects {
         margin-top: -61vh;
         margin-left: 7vw;
         width: 35vw; } }
-    @media (max-width: 1400px) {
+    @media (min-width: 1200px) {
       div.page-projects div.box-text-2 {
         font-size: 20px;
         float: left;
@@ -2176,7 +2176,7 @@ div.resume {
     div.resume {
       width: 82vw;
       border-right: 20em solid rgba(30, 128, 126, 0.7); } }
-  @media (max-width: 1400px) {
+  @media (min-width: 1200px) {
     div.resume {
       width: 80vw;
       border-left: 8em solid rgba(30, 128, 126, 0.7); } }
@@ -2196,7 +2196,7 @@ div.resume {
       @media (max-width: 1700px) {
         div.resume > #resume-inside > span > h1 {
           font-size: 60px; } }
-      @media (max-width: 1400px) {
+      @media (min-width: 1200px) {
         div.resume > #resume-inside > span > h1 {
           font-size: 60px; } }
     div.resume > #resume-inside > span > ul li {
@@ -2213,7 +2213,7 @@ div.resume {
       @media (max-width: 1700px) {
         div.resume > #resume-inside > span > h2 {
           font-size: 30px; } }
-      @media (max-width: 1400px) {
+      @media (min-width: 1200px) {
         div.resume > #resume-inside > span > h2 {
           font-size: 30px; } }
       div.resume > #resume-inside > span > h2 a {
@@ -2244,7 +2244,7 @@ div.education {
         font-size: 25px;
         margin-left: 10vw;
         width: 80vw; } }
-    @media (max-width: 1400px) {
+    @media (min-width: 1200px) {
       .footer .page-contact p {
         font-size: 25px;
         margin-left: 10vw;
@@ -2266,7 +2266,7 @@ div.education {
         font-size: 30px;
         margin-left: 10vw;
         width: 80vw; } }
-    @media (max-width: 1400px) {
+    @media (min-width: 1200px) {
       .footer .page-contact ul.nav-social {
         font-size: 30px;
         margin-left: 10vw;
