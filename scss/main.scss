@@ -107,14 +107,15 @@ div.page-about{
         
         @include breakpoint(tablet){
           float: none;
-          margin-top: -160px;    
+          margin-top: -12vh; 
+          margin-left: 35vw;   
           margin-right: 8vw;
-          margin-bottom: 20px;
+          margin-bottom: 10vh;
         }
 
         @include breakpoint(phone){
           float: none;
-          margin-top: -160px;    
+          margin-top: -50px; 
           margin-right: 8vw;
           margin-bottom: 20px;
         }
@@ -152,9 +153,10 @@ div.page-about{
 
           @include breakpoint(tablet){
             float: none;
-            margin-top: -160px;    
+            margin-top: 50px;    
             margin-right: 8vw;
             margin-bottom: 20px;
+            width: 80vw;
           }
 
           @include breakpoint(phone){
@@ -208,7 +210,15 @@ ul.nav-social {
   @include breakpoint(laptop){
     font-size: 30px;
     margin-left: 13vw;
-   }
+  }
+
+  @include breakpoint(tablet){
+    margin-left: 14vw;
+  }
+
+  @include breakpoint(phone){
+     margin-left: 13vw;
+  }
 
   li {
     list-style: none;
@@ -295,6 +305,14 @@ div.page-projects {
           margin-right: 65vw;
          }
 
+        @include breakpoint(tablet){
+          
+        }
+
+        @include breakpoint(phone){
+          
+        }  
+
       }
 
       li.diff{
@@ -310,7 +328,15 @@ div.page-projects {
         @include breakpoint(laptop){
           margin-left: -45vw;
          }
-      }
+  
+        @include breakpoint(tablet){
+          margin-left: -45vw;
+        }
+
+        @include breakpoint(phone){
+          margin-left: -45vw;
+        } 
+     }
 
       a{
         text-decoration: none;
@@ -342,6 +368,18 @@ div.page-projects {
           width: 50vw;
           height: 50vh;
          }
+          
+        @include breakpoint(tablet){
+          width: 50vw;
+          height: 25vh;
+          margin-left: -50px;
+        }
+
+        @include breakpoint(phone){
+          width: 50vw;
+          height: 25vh;
+        } 
+
       }
       
       div.box-text{
@@ -377,6 +415,22 @@ div.page-projects {
           margin-left: 20px;
           margin-top: 12vh;  
          }
+
+        @include breakpoint(tablet){
+          font-size: 25px;
+          width: 40vw;
+          float: left;
+          margin-left: 20px;
+          margin-top: 5vh; 
+          height: 20vh;
+        }
+
+        @include breakpoint(phone){
+          width: 50vw;
+          height: 25vh;
+        } 
+
+
           h2{
             font-family: $josefin;
             font-weight: 400;
@@ -425,6 +479,20 @@ div.page-projects {
           padding-right: 10px;
           width: 35vw;
          }
+
+        @include breakpoint(tablet){
+          font-size: 25px;
+          float: left;
+          margin-top: -45vh;
+          margin-left: 3vw;
+          padding-right: 10px;
+          width: 35vw;
+        }
+
+        @include breakpoint(phone){
+          width: 50vw;
+          height: 25vh;
+        }
         
         h2{
             font-family: $josefin;
@@ -475,6 +543,15 @@ div.resume {
     width: 80vw; 
     border-left: 8em solid $teal; 
    }
+
+  @include breakpoint(tablet){
+    border-left: 5em solid $teal; 
+  }
+
+  @include breakpoint(phone){
+   
+  }
+
   > #resume-inside {
     margin: 100px;
 
@@ -499,6 +576,14 @@ div.resume {
         @include breakpoint(laptop){
           font-size: 60px; 
          }
+
+        @include breakpoint(tablet){
+          font-size: 40px; 
+        }
+
+        @include breakpoint(phone){
+         
+        }
       }
 
       > ul li {
@@ -522,6 +607,9 @@ div.resume {
         @include breakpoint(laptop){
           font-size: 30px;
          }
+        @include breakpoint(tablet){
+          font-size: 20px;
+         } 
 
         a {
           margin-left: 20px;
@@ -606,6 +694,13 @@ div.education {
           font-size: 30px; 
           margin-left: 10vw;
           width: 80vw;
+        }
+        @include breakpoint(tablet){
+          margin-top: -16vh;
+        }
+
+        @include breakpoint(phone){
+       
         }
         }
   }

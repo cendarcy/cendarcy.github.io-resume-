@@ -1909,13 +1909,14 @@ div.page-about .blue-block {
       @media (min-width: 800px) and (max-width: 1100px) {
         div.page-about .blue-block .intro #headshot {
           float: none;
-          margin-top: -160px;
+          margin-top: -12vh;
+          margin-left: 35vw;
           margin-right: 8vw;
-          margin-bottom: 20px; } }
+          margin-bottom: 10vh; } }
       @media (min-width: 300px) and (max-width: 700px) {
         div.page-about .blue-block .intro #headshot {
           float: none;
-          margin-top: -160px;
+          margin-top: -50px;
           margin-right: 8vw;
           margin-bottom: 20px; } }
     div.page-about .blue-block .intro p {
@@ -1946,9 +1947,10 @@ div.page-about .blue-block {
       @media (min-width: 800px) and (max-width: 1100px) {
         div.page-about .blue-block .intro p {
           float: none;
-          margin-top: -160px;
+          margin-top: 50px;
           margin-right: 8vw;
-          margin-bottom: 20px; } }
+          margin-bottom: 20px;
+          width: 80vw; } }
       @media (min-width: 300px) and (max-width: 700px) {
         div.page-about .blue-block .intro p {
           clear: both;
@@ -1987,6 +1989,12 @@ ul.nav-social {
   @media (min-width: 1200px) {
     ul.nav-social {
       font-size: 30px;
+      margin-left: 13vw; } }
+  @media (min-width: 800px) and (max-width: 1100px) {
+    ul.nav-social {
+      margin-left: 14vw; } }
+  @media (min-width: 300px) and (max-width: 700px) {
+    ul.nav-social {
       margin-left: 13vw; } }
   ul.nav-social li {
     list-style: none;
@@ -2057,6 +2065,12 @@ div.page-projects {
     @media (min-width: 1200px) {
       div.page-projects ul.image-list li.diff {
         margin-left: -45vw; } }
+    @media (min-width: 800px) and (max-width: 1100px) {
+      div.page-projects ul.image-list li.diff {
+        margin-left: -45vw; } }
+    @media (min-width: 300px) and (max-width: 700px) {
+      div.page-projects ul.image-list li.diff {
+        margin-left: -45vw; } }
     div.page-projects ul.image-list a {
       text-decoration: none;
       color: #d13135; }
@@ -2080,6 +2094,15 @@ div.page-projects {
       div.page-projects img {
         width: 50vw;
         height: 50vh; } }
+    @media (min-width: 800px) and (max-width: 1100px) {
+      div.page-projects img {
+        width: 50vw;
+        height: 25vh;
+        margin-left: -50px; } }
+    @media (min-width: 300px) and (max-width: 700px) {
+      div.page-projects img {
+        width: 50vw;
+        height: 25vh; } }
   div.page-projects div.box-text {
     margin-left: 150px;
     padding-top: 15vh;
@@ -2109,6 +2132,18 @@ div.page-projects {
         float: left;
         margin-left: 20px;
         margin-top: 12vh; } }
+    @media (min-width: 800px) and (max-width: 1100px) {
+      div.page-projects div.box-text {
+        font-size: 25px;
+        width: 40vw;
+        float: left;
+        margin-left: 20px;
+        margin-top: 5vh;
+        height: 20vh; } }
+    @media (min-width: 300px) and (max-width: 700px) {
+      div.page-projects div.box-text {
+        width: 50vw;
+        height: 25vh; } }
     div.page-projects div.box-text h2 {
       font-family: "Josefin Sans", sans-serif;
       font-weight: 400;
@@ -2149,6 +2184,18 @@ div.page-projects {
         margin-left: 6vw;
         padding-right: 10px;
         width: 35vw; } }
+    @media (min-width: 800px) and (max-width: 1100px) {
+      div.page-projects div.box-text-2 {
+        font-size: 25px;
+        float: left;
+        margin-top: -45vh;
+        margin-left: 3vw;
+        padding-right: 10px;
+        width: 35vw; } }
+    @media (min-width: 300px) and (max-width: 700px) {
+      div.page-projects div.box-text-2 {
+        width: 50vw;
+        height: 25vh; } }
     div.page-projects div.box-text-2 h2 {
       font-family: "Josefin Sans", sans-serif;
       font-weight: 400;
@@ -2180,6 +2227,9 @@ div.resume {
     div.resume {
       width: 80vw;
       border-left: 8em solid rgba(30, 128, 126, 0.7); } }
+  @media (min-width: 800px) and (max-width: 1100px) {
+    div.resume {
+      border-left: 5em solid rgba(30, 128, 126, 0.7); } }
   div.resume > #resume-inside {
     margin: 100px; }
     div.resume > #resume-inside > span > h1 {
@@ -2199,6 +2249,9 @@ div.resume {
       @media (min-width: 1200px) {
         div.resume > #resume-inside > span > h1 {
           font-size: 60px; } }
+      @media (min-width: 800px) and (max-width: 1100px) {
+        div.resume > #resume-inside > span > h1 {
+          font-size: 40px; } }
     div.resume > #resume-inside > span > ul li {
       font-size: 40px; }
     div.resume > #resume-inside > span > p {
@@ -2216,6 +2269,9 @@ div.resume {
       @media (min-width: 1200px) {
         div.resume > #resume-inside > span > h2 {
           font-size: 30px; } }
+      @media (min-width: 800px) and (max-width: 1100px) {
+        div.resume > #resume-inside > span > h2 {
+          font-size: 20px; } }
       div.resume > #resume-inside > span > h2 a {
         margin-left: 20px; }
       div.resume > #resume-inside > span > h2#email {
@@ -2271,5 +2327,8 @@ div.education {
         font-size: 30px;
         margin-left: 10vw;
         width: 80vw; } }
+    @media (min-width: 800px) and (max-width: 1100px) {
+      .footer .page-contact ul.nav-social {
+        margin-top: -16vh; } }
 
 /*# sourceMappingURL=main.css.map */
