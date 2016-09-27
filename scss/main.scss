@@ -80,9 +80,16 @@ div.page-about{
       border-radius: 5px;
       margin-bottom: 20px;
       padding-top: 300px;
-      padding-left: 15vw;
+      padding-left: 5vw;
       float: left;
       width: 800px;
+
+      @include breakpoint(tablet){
+        width: 820px;
+      }
+      @include breakpoint(phone){
+        
+      }
         
       #headshot{
         float: right;
@@ -109,7 +116,7 @@ div.page-about{
         @include breakpoint(tablet){
           float: none;
           margin-top: -12vh; 
-          margin-left: 35vw;   
+          margin-left: 37vw;   
           margin-right: 8vw;
           margin-bottom: 10vh;
         }
