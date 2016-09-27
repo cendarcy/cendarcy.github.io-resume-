@@ -85,6 +85,7 @@ div.page-about{
       width: 800px;
 
       @include breakpoint(tablet){
+        padding-left: 15vw;
         width: 820px;
       }
       @include breakpoint(phone){
@@ -116,7 +117,7 @@ div.page-about{
         @include breakpoint(tablet){
           float: none;
           margin-top: -12vh; 
-          margin-left: 37vw;   
+          margin-left: 45vw;   
           margin-right: 8vw;
           margin-bottom: 10vh;
         }
@@ -164,7 +165,7 @@ div.page-about{
             margin-top: 50px;    
             margin-right: 8vw;
             margin-bottom: 20px;
-            width: 80vw;
+            width: 95vw;
           }
 
           @include breakpoint(phone){

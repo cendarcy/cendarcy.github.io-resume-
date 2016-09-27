@@ -1889,6 +1889,7 @@ div.page-about .blue-block {
     width: 800px; }
     @media (min-width: 800px) and (max-width: 1100px) {
       div.page-about .blue-block .intro {
+        padding-left: 15vw;
         width: 820px; } }
     div.page-about .blue-block .intro #headshot {
       float: right;
@@ -1912,7 +1913,7 @@ div.page-about .blue-block {
         div.page-about .blue-block .intro #headshot {
           float: none;
           margin-top: -12vh;
-          margin-left: 37vw;
+          margin-left: 45vw;
           margin-right: 8vw;
           margin-bottom: 10vh; } }
       @media (min-width: 300px) and (max-width: 750px) {
@@ -1952,7 +1953,7 @@ div.page-about .blue-block {
           margin-top: 50px;
           margin-right: 8vw;
           margin-bottom: 20px;
-          width: 80vw; } }
+          width: 95vw; } }
       @media (min-width: 300px) and (max-width: 750px) {
         div.page-about .blue-block .intro p {
           clear: both;
