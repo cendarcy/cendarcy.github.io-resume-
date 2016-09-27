@@ -19,7 +19,6 @@
   }
 }
 
-
 @import 'partials/vendor/bourbon/bourbon';
 @import 'partials/vendor/font-awesome/scss/font-awesome';
 @import 'partials/a';
@@ -69,7 +68,7 @@ div.page-about{
     }
 
     @include breakpoint(tablet){
-      height: 110vh;
+      height: 120vh;
     }
 
     @include breakpoint(phone){
@@ -265,6 +264,9 @@ div.page-projects {
   background-color: $teal;
   border-top: 1em solid $yellow;
   
+  @include breakpoint(tablet){
+    width: 162vw;
+  }
   h1 {
   font-size: 50px;  
   color: rgba(3, 163, 120, 0.3);
@@ -287,6 +289,14 @@ div.page-projects {
         @include breakpoint(desktop){
           padding-left: 5vw;
          }
+
+        @include breakpoint(tablet){
+          padding-left: 20vw;
+        }
+
+        @include breakpoint(phone){
+          
+        }  
       }
 
       li.alternates{
@@ -308,7 +318,7 @@ div.page-projects {
          }
 
         @include breakpoint(tablet){
-          
+          margin-right: 29vw;
         }
 
         @include breakpoint(phone){
@@ -332,11 +342,11 @@ div.page-projects {
          }
   
         @include breakpoint(tablet){
-          margin-left: -45vw;
+          margin-left: -60vw;
         }
 
         @include breakpoint(phone){
-          margin-left: -45vw;
+          margin-left: 0vw;
         } 
      }
 
@@ -373,8 +383,8 @@ div.page-projects {
           
         @include breakpoint(tablet){
           width: 50vw;
-          height: 25vh;
-          margin-left: -50px;
+          height: 20vh;
+          margin-left: 0px;
         }
 
         @include breakpoint(phone){
@@ -422,7 +432,7 @@ div.page-projects {
           font-size: 25px;
           width: 40vw;
           float: left;
-          margin-left: 20px;
+          margin-left: 10vw;
           margin-top: 5vh; 
           height: 20vh;
         }
@@ -456,7 +466,7 @@ div.page-projects {
         height: 50vh;
         font-size: 50px;
 
-         @include breakpoint(desktop-plus){
+        @include breakpoint(desktop-plus){
           float: left;
           margin-top: 3vh;
           width: 30vw;
@@ -485,8 +495,8 @@ div.page-projects {
         @include breakpoint(tablet){
           font-size: 25px;
           float: left;
-          margin-top: -45vh;
-          margin-left: 3vw;
+          margin-top: -38vh;
+          margin-left: 23vw;
           padding-right: 10px;
           width: 35vw;
         }
@@ -547,8 +557,8 @@ div.resume {
    }
 
   @include breakpoint(tablet){
-    width: 120vw;
-    border-left: 8em solid $teal; 
+    width: 106.5vw;
+    border-left: 17em solid $teal; 
   }
 
   @include breakpoint(phone){
@@ -670,6 +680,13 @@ div.education {
       margin-left: 10vw;
       width: 80vw;
     }
+    @include breakpoint(tablet){
+      margin-left: 15vw;
+    }
+
+    @include breakpoint(phone){
+   
+    }
 
   }
         
@@ -700,6 +717,7 @@ div.education {
         }
         @include breakpoint(tablet){
           margin-top: -16vh;
+          margin-left: 15vw;
         }
 
         @include breakpoint(phone){
