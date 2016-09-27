@@ -2224,7 +2224,7 @@ div.resume {
       border-right: 20em solid rgba(30, 128, 126, 0.7); } }
   @media (min-width: 1200px) {
     div.resume {
-      width: 120vw;
+      width: 80vw;
       border-left: 8em solid rgba(30, 128, 126, 0.7); } }
   @media (min-width: 800px) and (max-width: 1100px) {
     div.resume {
