@@ -544,6 +544,11 @@ div.pre-res {
   font-size: 40px;  
   color: rgba(3, 163, 120, 0.3);
   padding-left: 50px;
+  
+  @include breakpoint(tablet){
+    font-size: 50px; 
+  }
+
   } 
 }
 
@@ -570,7 +575,7 @@ div.resume {
 
   @include breakpoint(tablet){
     width: 106.5vw;
-    border-left: 10em solid $teal; 
+    border-left: 15em solid $teal; 
   }
 
   @include breakpoint(phone){
@@ -613,11 +618,11 @@ div.resume {
 
       > ul li {
         font-size: 40px;
-      }
-
+      
       @include breakpoint(tablet){
-          font-size: 40px;
+          font-size: 50px;
          } 
+      }   
 
       > p{
         font-size: 40px;
