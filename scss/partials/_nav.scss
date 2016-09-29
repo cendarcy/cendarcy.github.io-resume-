@@ -31,8 +31,12 @@ nav {
 
 		  @include breakpoint(laptop){
 		    font-size: 30px;
-		    padding-top: 5px;
-		   } 
+		   }
+
+		  @include breakpoint(tablet){
+	    	padding-top: 5px;
+	    	font-size: 40px;
+	    } 
 
 			a {
 				/*display: none;*/
