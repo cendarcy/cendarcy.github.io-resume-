@@ -2326,7 +2326,9 @@ div.education {
         width: 80vw; } }
     @media (min-width: 800px) and (max-width: 1100px) {
       .footer .page-contact p {
-        margin-left: 15vw; } }
+        margin-left: 15vw;
+        font-size: 50px;
+        width: 100vw; } }
   .footer .page-contact ul.nav-social {
     font-size: 40px;
     margin-left: 4vw;
@@ -2351,7 +2353,7 @@ div.education {
         width: 80vw; } }
     @media (min-width: 800px) and (max-width: 1100px) {
       .footer .page-contact ul.nav-social {
-        margin-top: -16vh;
+        margin-top: -8vh;
         margin-left: 15vw; } }
 
 /*# sourceMappingURL=main.css.map */

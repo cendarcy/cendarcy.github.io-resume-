@@ -701,6 +701,8 @@ div.education {
     }
     @include breakpoint(tablet){
       margin-left: 15vw;
+      font-size: 50px;
+      width: 100vw;
     }
 
     @include breakpoint(phone){
@@ -735,7 +737,7 @@ div.education {
           width: 80vw;
         }
         @include breakpoint(tablet){
-          margin-top: -16vh;
+          margin-top: -8vh;
           margin-left: 15vw;
         }
 
