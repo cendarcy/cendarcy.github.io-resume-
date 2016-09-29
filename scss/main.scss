@@ -68,7 +68,7 @@ div.page-about{
     }
 
     @include breakpoint(tablet){
-      height: 120vh;
+      height: 180vh;
     }
 
     @include breakpoint(phone){
@@ -166,6 +166,7 @@ div.page-about{
             margin-right: 8vw;
             margin-bottom: 20px;
             width: 95vw;
+            font-size: 60px;
           }
 
           @include breakpoint(phone){
@@ -271,6 +272,7 @@ div.page-projects {
   padding-right: 50px;
   background-color: $teal;
   border-top: 1em solid $yellow;
+
   
   @include breakpoint(tablet){
     width: 162vw;
@@ -351,6 +353,7 @@ div.page-projects {
   
         @include breakpoint(tablet){
           margin-left: -60vw;
+          margin-top: 3vh;
         }
 
         @include breakpoint(phone){
@@ -392,7 +395,7 @@ div.page-projects {
         @include breakpoint(tablet){
           width: 50vw;
           height: 20vh;
-          margin-left: 0px;
+          margin-left: -10vw;
         }
 
         @include breakpoint(phone){
@@ -438,11 +441,12 @@ div.page-projects {
 
         @include breakpoint(tablet){
           font-size: 25px;
-          width: 40vw;
+          width: 62vw;
           float: left;
           margin-left: 10vw;
           margin-top: 5vh; 
           height: 20vh;
+          font-size: 36px;
         }
 
         @include breakpoint(phone){
@@ -503,10 +507,10 @@ div.page-projects {
         @include breakpoint(tablet){
           font-size: 25px;
           float: left;
-          margin-top: -38vh;
-          margin-left: 23vw;
-          padding-right: 10px;
-          width: 35vw;
+          margin-top: -40vh;
+          margin-left: 13vw;
+          width: 50vw;
+          font-size: 40px;
         }
 
         @include breakpoint(phone){
@@ -566,7 +570,7 @@ div.resume {
 
   @include breakpoint(tablet){
     width: 106.5vw;
-    border-left: 17em solid $teal; 
+    border-left: 10em solid $teal; 
   }
 
   @include breakpoint(phone){
@@ -610,9 +614,15 @@ div.resume {
       > ul li {
         font-size: 40px;
       }
+
+      @include breakpoint(tablet){
+          font-size: 40px;
+         } 
+
       > p{
         font-size: 40px;
       }
+
       > h2 {
         display: block;
         font-size: 35px;
@@ -628,6 +638,7 @@ div.resume {
         @include breakpoint(laptop){
           font-size: 30px;
          }
+
         @include breakpoint(tablet){
           font-size: 20px;
          } 

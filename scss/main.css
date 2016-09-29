@@ -1875,7 +1875,7 @@ div.page-about .blue-block {
       height: 160vh; } }
   @media (min-width: 800px) and (max-width: 1100px) {
     div.page-about .blue-block {
-      height: 120vh; } }
+      height: 180vh; } }
   @media (min-width: 300px) and (max-width: 750px) {
     div.page-about .blue-block {
       height: 120vh; } }
@@ -1953,7 +1953,8 @@ div.page-about .blue-block {
           margin-top: 50px;
           margin-right: 8vw;
           margin-bottom: 20px;
-          width: 95vw; } }
+          width: 95vw;
+          font-size: 60px; } }
       @media (min-width: 300px) and (max-width: 750px) {
         div.page-about .blue-block .intro p {
           clear: both;
@@ -2079,7 +2080,8 @@ div.page-projects {
         margin-left: -45vw; } }
     @media (min-width: 800px) and (max-width: 1100px) {
       div.page-projects ul.image-list li.diff {
-        margin-left: -60vw; } }
+        margin-left: -60vw;
+        margin-top: 3vh; } }
     @media (min-width: 300px) and (max-width: 750px) {
       div.page-projects ul.image-list li.diff {
         margin-left: 0vw; } }
@@ -2110,7 +2112,7 @@ div.page-projects {
       div.page-projects img {
         width: 50vw;
         height: 20vh;
-        margin-left: 0px; } }
+        margin-left: -10vw; } }
     @media (min-width: 300px) and (max-width: 750px) {
       div.page-projects img {
         width: 50vw;
@@ -2147,11 +2149,12 @@ div.page-projects {
     @media (min-width: 800px) and (max-width: 1100px) {
       div.page-projects div.box-text {
         font-size: 25px;
-        width: 40vw;
+        width: 62vw;
         float: left;
         margin-left: 10vw;
         margin-top: 5vh;
-        height: 20vh; } }
+        height: 20vh;
+        font-size: 36px; } }
     @media (min-width: 300px) and (max-width: 750px) {
       div.page-projects div.box-text {
         width: 50vw;
@@ -2200,10 +2203,10 @@ div.page-projects {
       div.page-projects div.box-text-2 {
         font-size: 25px;
         float: left;
-        margin-top: -38vh;
-        margin-left: 23vw;
-        padding-right: 10px;
-        width: 35vw; } }
+        margin-top: -40vh;
+        margin-left: 13vw;
+        width: 50vw;
+        font-size: 40px; } }
     @media (min-width: 300px) and (max-width: 750px) {
       div.page-projects div.box-text-2 {
         width: 50vw;
@@ -2242,7 +2245,7 @@ div.resume {
   @media (min-width: 800px) and (max-width: 1100px) {
     div.resume {
       width: 106.5vw;
-      border-left: 17em solid rgba(30, 128, 126, 0.7); } }
+      border-left: 10em solid rgba(30, 128, 126, 0.7); } }
   div.resume > #resume-inside {
     margin: 100px; }
     div.resume > #resume-inside > span > h1 {
@@ -2267,6 +2270,9 @@ div.resume {
           font-size: 40px; } }
     div.resume > #resume-inside > span > ul li {
       font-size: 40px; }
+    @media (min-width: 800px) and (max-width: 1100px) {
+      div.resume > #resume-inside > span {
+        font-size: 40px; } }
     div.resume > #resume-inside > span > p {
       font-size: 40px; }
     div.resume > #resume-inside > span > h2 {
