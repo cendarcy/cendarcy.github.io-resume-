@@ -106,12 +106,13 @@ div.page-about{
 
         @include breakpoint(desktop){
           float: right;
-          margin-top: 15px;
+          margin-top: 17px;
           margin-right: -40vw;
          }
 
         @include breakpoint(laptop){
           margin-right: -25vw;
+          margin-top: -90px;
         }
         
         @include breakpoint(tablet){
